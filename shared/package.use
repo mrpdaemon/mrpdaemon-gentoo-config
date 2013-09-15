@@ -1,0 +1,132 @@
+# CVS server functionality for legacy repos
+dev-vcs/cvs server
+
+# VMware guest tools
+app-emulation/vmware-tools vmware_guest_linux vmware_guest_windows
+app-emulation/vmware-workstation vmware-tools
+
+# VMware Workstation needs VIX support for 'vmrun' suspend script
+app-emulation/vmware-workstation vix
+
+# Layman additional VCS support
+app-portage/layman subversion cvs mercurial
+
+# Injket support
+net-print/hplip hpijs
+
+# Chrome needs libxml2 with icu and zlib with minizip
+dev-libs/libxml2 icu
+sys-libs/zlib minizip
+
+# qtwebkit needs to be built with icu if libxml2 was
+dev-qt/qtwebkit icu
+
+# Libreoffice java support
+app-office/libreoffice java
+
+# NetworkManager needs avahi with autoipd
+net-dns/avahi autoipd
+
+# without this emerge takes forever due to backtracking
+net-dns/avahi gtk3
+
+# Build patented TrueType interpreter
+media-libs/freetype bindist
+
+# Freetype with infinality patchset
+media-libs/freetype infinality
+
+# Freetype with Adobe CFF 
+media-libs/freetype adobe-cff
+
+# Enable nautilus-sendto extension + empathy
+gnome-base/nautilus sendto
+
+# ICQ/Yahoo support for empathy
+net-im/telepathy-connection-managers icq yahoo
+
+# Pidgin disable evolution-data-server support
+net-im/pidgin -eds
+
+# Pulseaudio to use realtime scheduling
+media-sound/pulseaudio realtime
+
+# Remmina remote desktop support
+net-misc/remmina freerdp ssh vte
+
+# Graph support for bugzilla
+www-apps/bugzilla graphviz
+# Graphviz requires gd[fontconfig]
+media-libs/gd fontconfig
+
+# mysqld / apache2 units
+sys-apps/systemd-units server
+
+# Don't want to see .desktop entries for these packages
+dev-python/bpython -gtk
+app-arch/p7zip -wxwidgets
+media-video/mediainfo -wxwidgets
+dev-util/cmake -qt4
+app-doc/doxygen -qt4
+net-analyzer/nmap -gtk
+sys-devel/distcc -gtk
+
+# gitk support for git
+dev-vcs/git tk
+
+# steam on amd64 needs steamruntime
+games-util/steam-meta steamruntime
+
+# required by gnome-control-center
+net-fs/cifs-utils upcall
+
+# gnome-boxes requirement
+app-emulation/qemu spice
+
+# libburn can't deal with DVD+RL
+app-cdr/brasero -libburn
+
+# Turkish dictionary for aspell/hunspell
+app-text/aspell linguas_tr
+app-text/hunspell linguas_tr
+
+# gnome-control-center needs this
+net-fs/samba winbind
+
+# needed for SSL support
+net-ftp/proftpd openssl
+
+# OpenVG acceleration
+x11-libs/cairo openvg
+media-libs/mesa openvg
+
+# Improves cogl performance
+media-libs/mesa gles2
+media-libs/cogl gles2
+
+# doesn't work with acl
+net-ftp/proftpd -acl
+
+# Use composite extension with wine
+app-emulation/wine xcomposite
+
+# Allow modifying MP3 tags in audacity
+media-sound/audacity id3tag
+
+# Build Anjuta Devhelp plugin
+dev-util/anjuta devhelp
+
+# Prefer GTK3 interface for wireshark
+net-analyzer/wireshark gtk3 -gtk2 -qt4
+
+# Support FUSE for legacy apps in gvfs
+gnome-base/gvfs fuse
+
+# Enable sys-apps/gnome-disk-utility integration in gvfs
+gnome-base/gvfs gdu
+
+# Install hostip.info provider for geoclue
+app-misc/geoclue hostip
+
+# Use LDAP support for evolution address books
+mail-client/evolution ldap
