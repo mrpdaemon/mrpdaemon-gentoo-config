@@ -130,3 +130,6 @@ app-misc/geoclue hostip
 
 # Use LDAP support for evolution address books
 mail-client/evolution ldap
+
+# Required by prelink required by wine
+dev-libs/elfutils static-libs
