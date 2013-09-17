@@ -1,0 +1,11 @@
+--- gnome-settings-daemon-3.8.3-orig/plugins/xsettings/gsd-xsettings-manager.c	2013-06-14 19:02:54.222826436 -0700
++++ gnome-settings-daemon-3.8.3/plugins/xsettings/gsd-xsettings-manager.c	2013-06-14 19:03:47.550826057 -0700
+@@ -216,7 +216,7 @@
+  * - ajax
+  * 
+  */
+-#define DPI_FALLBACK 96
++#define DPI_FALLBACK 169
+ 
+ typedef struct _TranslationEntry TranslationEntry;
+ typedef void (* TranslationFunc) (GnomeXSettingsManager *manager,
