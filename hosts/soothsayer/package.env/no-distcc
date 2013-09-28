@@ -1,1 +1,3 @@
 app-text/poppler no-distcc.conf
+sys-power/bbswitch
+app-emulation/vmware-modules
