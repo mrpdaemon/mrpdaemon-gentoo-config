@@ -66,7 +66,6 @@ gnome-extra/nautilus-dropbox
 gnome-extra/nautilus-open-terminal
 gnome-extra/nautilus-sendto
 mail-client/geary
-mail-client/thunderbird
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
@@ -86,6 +85,7 @@ media-sound/audacity
 media-sound/google-musicmanager
 media-sound/mp3gain
 media-sound/mp3info
+media-sound/mt-daapd
 media-sound/neroaac
 media-sound/pavucontrol
 media-sound/rhythmbox
@@ -140,7 +140,6 @@ sys-apps/less
 sys-apps/lm_sensors
 sys-apps/pv
 sys-apps/systemd-ui
-sys-apps/systemd-units
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/grub:0
@@ -169,7 +168,6 @@ sys-process/lsof
 sys-process/vixie-cron
 www-apps/bugzilla
 www-client/chromium
-www-client/firefox
 www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
 www-servers/apache
