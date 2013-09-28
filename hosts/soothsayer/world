@@ -82,7 +82,9 @@ www-client/chromium
 www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
 x11-apps/xinput
+x11-misc/gwakeonlan
 x11-misc/xsensors
+x11-terms/finalterm
 x11-terms/guake
 x11-terms/terminator
 x11-themes/faenza-icon-theme
