@@ -83,6 +83,7 @@ media-plugins/gst-plugins-libav
 media-sound/aacgain
 media-sound/audacity
 media-sound/google-musicmanager
+media-sound/grip
 media-sound/mp3gain
 media-sound/mp3info
 media-sound/mt-daapd
@@ -161,6 +162,7 @@ sys-kernel/gentoo-sources:3.10.6
 sys-kernel/gentoo-sources:3.10.7
 sys-kernel/gentoo-sources:3.10.9
 sys-kernel/gentoo-sources:3.11.1
+sys-kernel/gentoo-sources:3.11.2
 sys-kernel/gentoo-sources:3.9.11-r1
 sys-kernel/linux-firmware
 sys-process/htop
