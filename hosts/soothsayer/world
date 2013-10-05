@@ -72,6 +72,8 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.10.11
+sys-kernel/gentoo-sources:3.11.1
+sys-kernel/gentoo-sources:3.11.2
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
