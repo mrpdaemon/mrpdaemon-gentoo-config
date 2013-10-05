@@ -120,6 +120,7 @@ net-misc/bridge-utils
 net-misc/clamz
 net-misc/dhcpcd
 net-misc/dropbox
+net-misc/hotot
 net-misc/mosh
 net-misc/netkit-telnetd
 net-misc/networkmanager-vpnc
