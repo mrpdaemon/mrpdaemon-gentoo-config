@@ -133,3 +133,6 @@ mail-client/evolution ldap
 
 # Required by prelink required by wine
 dev-libs/elfutils static-libs
+
+# Don't build qt frontend for Hotot
+net-misc/hotot -qt4
