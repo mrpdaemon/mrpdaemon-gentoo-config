@@ -44,10 +44,12 @@ media-video/mplayer
 net-analyzer/nmap
 net-analyzer/traceroute
 net-analyzer/wireshark
+net-fs/nfs-utils
 net-im/skype
 net-irc/smuxi
 net-misc/dhcpcd
 net-misc/dropbox
+net-misc/hotot
 net-misc/mosh
 net-misc/networkmanager-vpnc
 net-misc/ntp
@@ -74,6 +76,7 @@ sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.10.11
 sys-kernel/gentoo-sources:3.11.1
 sys-kernel/gentoo-sources:3.11.2
+sys-kernel/gentoo-sources:3.11.3
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
