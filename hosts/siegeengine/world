@@ -145,7 +145,6 @@ sys-apps/systemd-ui
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/grub:0
-sys-devel/crossdev
 sys-devel/distcc
 sys-devel/gcc:4.7
 sys-devel/gdb
