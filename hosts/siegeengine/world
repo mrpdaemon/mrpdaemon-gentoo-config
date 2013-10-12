@@ -130,6 +130,7 @@ net-p2p/deluge
 net-print/cups
 net-print/cupswrapper-brother-hl2270dw
 net-print/hplip
+net-wireless/broadcom-sta
 net-wireless/iw
 net-wireless/rfkill
 sci-astronomy/stellarium
