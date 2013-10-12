@@ -2,3 +2,4 @@ app-text/poppler no-distcc.conf
 sys-power/bbswitch no-distcc.conf
 app-emulation/vmware-modules no-distcc.conf
 sys-devel/gcc no-distcc.conf
+media-video/ffmpeg no-distcc.conf
