@@ -136,3 +136,6 @@ dev-libs/elfutils static-libs
 
 # Don't build qt frontend for Hotot
 net-misc/hotot -qt4
+
+# Don't need GNOME games
+gnome-base/gnome-extra-apps -games
