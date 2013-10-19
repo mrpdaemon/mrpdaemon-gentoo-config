@@ -2,7 +2,7 @@
 sys-boot/grub:2
 
 # wine with netflix patches
->app-emulation/wine-1.7.0
+>app-emulation/wine-1.7.4
 
 # VMware workstation doesn't load up Bug #464976
 >dev-cpp/gtkmm-2.24.2:2.4
