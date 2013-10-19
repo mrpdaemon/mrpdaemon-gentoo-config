@@ -5,7 +5,7 @@
   * 
   */
 -#define DPI_FALLBACK 96
-+#define DPI_FALLBACK 124
++#define DPI_FALLBACK 120
  
  typedef struct _TranslationEntry TranslationEntry;
  typedef void (* TranslationFunc) (GnomeXSettingsManager *manager,
