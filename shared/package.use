@@ -139,3 +139,7 @@ net-misc/hotot -qt4
 
 # Don't need GNOME games
 gnome-base/gnome-extra-apps -games
+
+# bohoomil infinality settings
+media-libs/fontconfig-infinality bohoomil
+app-admin/eselect-lcdfilter bohoomil
