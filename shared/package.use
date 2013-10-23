@@ -78,7 +78,7 @@ dev-vcs/git tk
 games-util/steam-meta steamruntime
 
 # required by gnome-control-center
-net-fs/cifs-utils upcall
+net-fs/cifs-utils upcall ads
 
 # gnome-boxes requirement
 app-emulation/qemu spice
