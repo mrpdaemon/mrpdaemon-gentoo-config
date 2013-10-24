@@ -74,6 +74,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.10.11
+sys-kernel/gentoo-sources:3.11.6
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
@@ -85,6 +86,7 @@ www-client/chromium
 www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
 x11-apps/xinput
+x11-misc/alacarte
 x11-misc/gwakeonlan
 x11-misc/xsensors
 x11-terms/finalterm
