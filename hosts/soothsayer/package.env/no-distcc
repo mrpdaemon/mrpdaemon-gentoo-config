@@ -3,3 +3,7 @@ sys-power/bbswitch no-distcc.conf
 app-emulation/vmware-modules no-distcc.conf
 sys-devel/gcc no-distcc.conf
 media-video/ffmpeg no-distcc.conf
+sys-libs/talloc no-distcc.conf
+sys-libs/tdb no-distcc.conf
+dev-python/numpy no-distcc.conf
+sys-libs/tevent no-distcc.conf
