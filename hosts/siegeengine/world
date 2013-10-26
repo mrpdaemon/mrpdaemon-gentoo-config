@@ -33,7 +33,7 @@ app-shells/gentoo-bashcomp
 app-text/acroread
 app-text/agrep
 app-text/dos2unix
-dev-db/mysql
+dev-db/mariadb
 dev-java/icedtea
 dev-java/maven-bin
 dev-lang/tcl
@@ -164,7 +164,6 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
-www-apps/bugzilla
 www-client/chromium
 www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
