@@ -158,7 +158,6 @@ sys-fs/mtpfs
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.10.11
-sys-kernel/gentoo-sources:3.11.5
 sys-kernel/gentoo-sources:3.11.6
 sys-kernel/linux-firmware
 sys-process/htop
