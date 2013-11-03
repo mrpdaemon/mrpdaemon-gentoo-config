@@ -4,8 +4,5 @@ sys-boot/grub:2
 # wine with netflix patches
 >app-emulation/wine-1.7.4
 
-# VMware workstation doesn't load up Bug #464976
->dev-cpp/gtkmm-2.24.2:2.4
-
 # Libreoffice 4.1.0.1 compile Bug #474710
 >=dev-util/mdds-0.9.0
