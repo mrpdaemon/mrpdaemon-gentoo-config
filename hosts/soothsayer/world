@@ -18,6 +18,7 @@ app-shells/bash-completion
 app-shells/gentoo-bashcomp
 app-text/acroread
 dev-java/maven-bin
+dev-util/android-ndk
 dev-util/android-sdk-update-manager
 dev-util/anjuta
 dev-util/devhelp
