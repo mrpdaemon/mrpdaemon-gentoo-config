@@ -57,7 +57,6 @@ dev-vcs/git
 dev-vcs/tig
 games-util/steam-meta
 gnome-base/gnome
-gnome-extra/gnome-boxes
 gnome-extra/gnome-boxes-nonfree
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
@@ -65,7 +64,6 @@ gnome-extra/gnome-weather
 gnome-extra/nautilus-dropbox
 gnome-extra/nautilus-open-terminal
 gnome-extra/nautilus-sendto
-mail-client/geary
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
