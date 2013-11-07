@@ -76,6 +76,7 @@ dev-vcs/git tk
 
 # steam on amd64 needs steamruntime
 games-util/steam-meta steamruntime
+games-util/steam-launcher steamruntime
 
 # required by gnome-control-center
 net-fs/cifs-utils upcall ads
