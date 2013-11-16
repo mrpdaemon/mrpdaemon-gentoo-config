@@ -1,0 +1,26 @@
+diff -ur wireshark-1.11.1-orig/config.nmake wireshark-1.11.1/config.nmake
+--- wireshark-1.11.1-orig/config.nmake	2013-11-16 14:20:49.319246290 -0800
++++ wireshark-1.11.1/config.nmake	2013-11-16 14:21:55.008154052 -0800
+@@ -1299,9 +1299,6 @@
+ 	/I$(GTK_DIR)\include\atk-1.0 \
+ 	/I$(GTK_DIR)\include\cairo \
+ 	/I$(GTK_DIR)\include\pango-1.0 \
+-	-DGDK_DISABLE_DEPRECATED \
+-	-DGDK_PIXBUF_DISABLE_DEPRECATED \
+-	-DGTK_DISABLE_DEPRECATED \
+ 	-DGTK_DISABLE_SINGLE_INCLUDES \
+ 	-DGSEAL_ENABLE
+ GTK_LIBS=$(GTK_DIR)\lib\gtk-win32-2.0.lib \
+diff -ur wireshark-1.11.1-orig/configure.ac wireshark-1.11.1/configure.ac
+--- wireshark-1.11.1-orig/configure.ac	2013-11-16 14:20:49.387246163 -0800
++++ wireshark-1.11.1/configure.ac	2013-11-16 14:21:08.400210960 -0800
+@@ -1482,9 +1482,6 @@
+ if test "$have_gtk" = "yes" ; then
+ 	# If we have GTK then add flags for it.
+ 
+-	CPPFLAGS="-DGDK_PIXBUF_DISABLE_DEPRECATED $CPPFLAGS"
+-	CPPFLAGS="-DGDK_DISABLE_DEPRECATED $CPPFLAGS"
+-	CPPFLAGS="-DGTK_DISABLE_DEPRECATED $CPPFLAGS"
+ 	CPPFLAGS="-DGTK_DISABLE_SINGLE_INCLUDES $CPPFLAGS"
+ 	if test ! \( $gtk_config_major_version -eq 2 -a $gtk_config_minor_version -lt 20 \) ; then
+ 		# Enable GSEAL when building with GTK > 2.20
