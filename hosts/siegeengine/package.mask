@@ -1,0 +1,2 @@
+# nvidia-drivers-331.20 requires less than this
+>=x11-base/xorg-server-1.14.99
