@@ -35,6 +35,8 @@ gnome-extra/nautilus-dropbox
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/terminus-font
+media-gfx/argyllcms
+media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/shotwell
@@ -75,7 +77,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.11.6
-sys-kernel/gentoo-sources:3.12.2
+sys-kernel/gentoo-sources:3.12.6
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
