@@ -18,6 +18,8 @@ app-emulation/vmware-modules
 app-emulation/vmware-workstation
 app-emulation/wine
 app-emulation/winetricks
+app-misc/bijiben
+app-misc/geoclue:0
 app-misc/screen
 app-misc/solaar
 app-office/dia
@@ -44,7 +46,6 @@ dev-python/pip
 dev-python/virtualenv
 dev-util/android-ndk
 dev-util/android-sdk-update-manager
-dev-util/anjuta
 dev-util/devhelp
 dev-util/eclipse-sdk-bin
 dev-util/indent
@@ -74,6 +75,7 @@ media-fonts/ubuntu-font-family
 media-gfx/argyllcms
 media-gfx/dispcalgui
 media-gfx/gimp
+media-gfx/gnome-photos
 media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/inkscape
@@ -83,6 +85,7 @@ media-plugins/frei0r-plugins
 media-plugins/gst-plugins-libav
 media-sound/aacgain
 media-sound/audacity
+media-sound/gnome-music
 media-sound/google-musicmanager
 media-sound/grip
 media-sound/mp3gain
@@ -136,6 +139,7 @@ net-wireless/broadcom-sta
 net-wireless/iw
 net-wireless/rfkill
 sci-astronomy/stellarium
+sci-geosciences/gnome-maps
 sci-geosciences/googleearth
 sys-apps/dmidecode
 sys-apps/ethtool
@@ -159,7 +163,7 @@ sys-fs/mtpfs
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.11.6
-sys-kernel/gentoo-sources:3.12.4
+sys-kernel/gentoo-sources:3.12.6
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
