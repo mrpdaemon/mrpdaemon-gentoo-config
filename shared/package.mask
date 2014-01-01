@@ -6,3 +6,6 @@ sys-boot/grub:2
 
 # Libreoffice 4.1.0.1 compile Bug #474710
 >=dev-util/mdds-0.9.0
+
+# keepassx issue with libgcrypt
+>=app-admin/keepassx-2.0_alpha5
