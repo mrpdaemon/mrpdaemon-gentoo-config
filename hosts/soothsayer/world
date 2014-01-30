@@ -17,6 +17,7 @@ app-portage/mrpdaemon-gentoo-scripts
 app-shells/bash-completion
 app-shells/gentoo-bashcomp
 app-text/acroread
+dev-java/icedtea-bin
 dev-java/maven-bin
 dev-util/android-ndk
 dev-util/android-sdk-update-manager
@@ -42,10 +43,10 @@ media-gfx/inkscape
 media-gfx/shotwell
 media-sound/pavucontrol
 media-sound/rhythmbox
-media-sound/spotify
 media-video/mplayer
 media-video/uvcdynctrl
 net-analyzer/nmap
+net-analyzer/openbsd-netcat
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-fs/nfs-utils
@@ -78,7 +79,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.11.6
-sys-kernel/gentoo-sources:3.12.7
+sys-kernel/gentoo-sources:3.12.8
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
