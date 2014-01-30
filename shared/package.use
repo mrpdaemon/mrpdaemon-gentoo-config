@@ -144,3 +144,7 @@ gnome-base/gnome-extra-apps -games
 # bohoomil infinality settings
 media-libs/fontconfig-infinality bohoomil
 app-admin/eselect-lcdfilter bohoomil
+
+# GNOME 3.10
+net-misc/networkmanager modemmanager
+media-plugins/grilo-plugins upnp-av
