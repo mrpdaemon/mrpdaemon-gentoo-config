@@ -64,6 +64,7 @@ net-print/cups
 net-print/cupswrapper-brother-hl2270dw
 net-print/hplip
 net-wireless/wpa_supplicant
+sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 sys-apps/mlocate
 sys-apps/systemd-ui
