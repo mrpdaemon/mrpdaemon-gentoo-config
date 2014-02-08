@@ -7,4 +7,3 @@ sys-libs/talloc no-distcc.conf
 sys-libs/tdb no-distcc.conf
 dev-python/numpy no-distcc.conf
 sys-libs/tevent no-distcc.conf
-www-client/chromium no-distcc.conf
