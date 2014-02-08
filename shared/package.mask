@@ -2,7 +2,7 @@
 sys-boot/grub:2
 
 # wine with netflix patches
->app-emulation/wine-1.7.8
+>app-emulation/wine-1.7.10
 
 # Libreoffice 4.1.0.1 compile Bug #474710
 >=dev-util/mdds-0.9.0
