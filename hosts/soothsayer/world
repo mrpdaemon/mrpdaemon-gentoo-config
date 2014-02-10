@@ -17,7 +17,7 @@ app-portage/mrpdaemon-gentoo-scripts
 app-shells/bash-completion
 app-shells/gentoo-bashcomp
 app-text/acroread
-dev-java/icedtea-bin
+dev-java/icedtea
 dev-java/maven-bin
 dev-python/snakeoil
 dev-python/sphinx
