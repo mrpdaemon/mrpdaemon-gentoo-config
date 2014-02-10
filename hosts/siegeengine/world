@@ -48,7 +48,6 @@ dev-util/android-ndk
 dev-util/android-sdk-update-manager
 dev-util/anjuta
 dev-util/devhelp
-dev-util/eclipse-sdk-bin
 dev-util/indent
 dev-util/meld
 dev-util/perf
@@ -60,7 +59,6 @@ dev-vcs/gitg
 dev-vcs/tig
 games-util/steam-meta
 gnome-base/gnome
-gnome-extra/gnome-boxes-nonfree
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
 gnome-extra/gnome-weather
