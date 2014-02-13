@@ -148,3 +148,4 @@ app-admin/eselect-lcdfilter bohoomil
 # GNOME 3.10
 net-misc/networkmanager modemmanager
 media-plugins/grilo-plugins upnp-av
+media-libs/grilo playlist
