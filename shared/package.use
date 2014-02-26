@@ -149,3 +149,6 @@ app-admin/eselect-lcdfilter bohoomil
 net-misc/networkmanager modemmanager
 media-plugins/grilo-plugins upnp-av
 media-libs/grilo playlist
+
+# mesa-9.2.5-r1 doesn't merge otherwise bug #481316
+media-libs/mesa llvm-shared-libs
