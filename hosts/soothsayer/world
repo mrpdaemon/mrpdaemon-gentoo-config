@@ -77,12 +77,13 @@ sys-devel/distcc
 sys-devel/gcc
 sys-devel/gcc:4.7
 sys-devel/gdb
+sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.12.9
-sys-kernel/gentoo-sources:3.13.5
+sys-kernel/gentoo-sources:3.13.6
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
