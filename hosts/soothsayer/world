@@ -83,7 +83,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.12.9
-sys-kernel/gentoo-sources:3.13.6
+sys-kernel/gentoo-sources:3.13.7
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
