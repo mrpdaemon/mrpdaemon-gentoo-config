@@ -155,13 +155,15 @@ sys-devel/gcc:4.7
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/encfs
+sys-fs/exfat-utils
+sys-fs/fuse-exfat
 sys-fs/jmtpfs
 sys-fs/mdadm
 sys-fs/mtpfs
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.12.10
-sys-kernel/gentoo-sources:3.13.8
+sys-kernel/gentoo-sources:3.13.9
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
