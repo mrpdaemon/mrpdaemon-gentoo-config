@@ -54,6 +54,7 @@ net-analyzer/traceroute
 net-analyzer/wireshark
 net-fs/nfs-utils
 net-im/skype
+net-irc/irssi
 net-irc/smuxi
 net-misc/dhcpcd
 net-misc/dropbox
@@ -83,7 +84,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.12.9
-sys-kernel/gentoo-sources:3.13.7
+sys-kernel/gentoo-sources:3.13.9
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
