@@ -9,3 +9,7 @@ sys-boot/grub:2
 
 # perf regression
 =gnome-base/gnome-shell-3.10.4-r2
+
+# Temporary masks until libreoffice is updated
+=dev-libs/liborcus-0.7.0
+=dev-libs/libixion-0.7.0
