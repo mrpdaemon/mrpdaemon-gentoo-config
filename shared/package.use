@@ -152,3 +152,6 @@ media-libs/grilo playlist
 
 # mesa-9.2.5-r1 doesn't merge otherwise bug #481316
 media-libs/mesa llvm-shared-libs
+
+# linux 3.14 has inbox vmci and vsock
+app-emulation/vmware-modules -vmci -vsock
