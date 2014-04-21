@@ -1,6 +1,6 @@
 diff -Naur a/linux/inode.c b/linux/inode.c
---- a/vmblock-only/linux/inode.c	2013-10-03 04:29:47.471339204 -0400
-+++ b/vmblock-only/linux/inode.c	2013-10-03 04:31:56.607334636 -0400
+--- vmblock-only/linux/inode.c	2013-10-03 04:29:47.471339204 -0400
++++ vmblock-only/linux/inode.c	2013-10-03 04:31:56.607334636 -0400
 @@ -36,7 +36,7 @@
  
  /* Inode operations */
