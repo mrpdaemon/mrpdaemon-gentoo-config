@@ -1,0 +1,180 @@
+From e031dc5069bebd63770a405d684ee75a14d1826b Mon Sep 17 00:00:00 2001
+From: "Erich E. Hoover" <erich.e.hoover@gmail.com>
+Date: Fri, 18 Apr 2014 14:01:35 -0600
+Subject: server: Retrieve file security attributes with extended file
+ attributes.
+
+---
+ dlls/advapi32/tests/security.c |   49 ++++++++++++++++++++--------------------
+ server/change.c                |    2 +-
+ server/file.c                  |   28 ++++++++++++++++++++---
+ 3 files changed, 50 insertions(+), 29 deletions(-)
+
+diff --git a/dlls/advapi32/tests/security.c b/dlls/advapi32/tests/security.c
+index bd45189..e5ef7e6 100644
+--- a/dlls/advapi32/tests/security.c
++++ b/dlls/advapi32/tests/security.c
+@@ -3105,24 +3105,24 @@ static void test_CreateDirectoryA(void)
+         bret = pGetAce(pDacl, 0, (VOID **)&ace);
+         ok(bret, "Failed to get Current User ACE.\n");
+         bret = EqualSid(&ace->SidStart, user_sid);
+-        todo_wine ok(bret, "Current User ACE != Current User SID.\n");
+-        todo_wine ok(((ACE_HEADER *)ace)->AceFlags == (OBJECT_INHERIT_ACE|CONTAINER_INHERIT_ACE),
+-                     "Current User ACE has unexpected flags (0x%x != 0x03)\n",
+-                     ((ACE_HEADER *)ace)->AceFlags);
+-        ok(ace->Mask == 0x1f01ff, "Current User ACE has unexpected mask (0x%x != 0x1f01ff)\n",
+-                                  ace->Mask);
++        ok(bret, "Current User ACE != Current User SID.\n");
++        ok(((ACE_HEADER *)ace)->AceFlags == (OBJECT_INHERIT_ACE|CONTAINER_INHERIT_ACE),
++           "Current User ACE has unexpected flags (0x%x != 0x03)\n",
++           ((ACE_HEADER *)ace)->AceFlags);
++        todo_wine ok(ace->Mask == 0x1f01ff,
++                     "Current User ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
+     }
+     if (acl_size.AceCount > 1)
+     {
+         bret = pGetAce(pDacl, 1, (VOID **)&ace);
+         ok(bret, "Failed to get Administators Group ACE.\n");
+         bret = EqualSid(&ace->SidStart, admin_sid);
+-        todo_wine ok(bret, "Administators Group ACE != Administators Group SID.\n");
+-        todo_wine ok(((ACE_HEADER *)ace)->AceFlags == (OBJECT_INHERIT_ACE|CONTAINER_INHERIT_ACE),
+-                     "Administators Group ACE has unexpected flags (0x%x != 0x03)\n",
+-                     ((ACE_HEADER *)ace)->AceFlags);
+-        ok(ace->Mask == 0x1f01ff, "Administators Group ACE has unexpected mask (0x%x != 0x1f01ff)\n",
+-                                  ace->Mask);
++        ok(bret, "Administators Group ACE != Administators Group SID.\n");
++        ok(((ACE_HEADER *)ace)->AceFlags == (OBJECT_INHERIT_ACE|CONTAINER_INHERIT_ACE),
++           "Administators Group ACE has unexpected flags (0x%x != 0x03)\n",
++           ((ACE_HEADER *)ace)->AceFlags);
++        todo_wine ok(ace->Mask == 0x1f01ff,
++                     "Administators Group ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
+     }
+ 
+ done:
+@@ -3294,23 +3294,22 @@ static void test_GetNamedSecurityInfoA(void)
+         bret = pGetAce(pDacl, 0, (VOID **)&ace);
+         ok(bret, "Failed to get Current User ACE.\n");
+         bret = EqualSid(&ace->SidStart, user_sid);
+-        todo_wine ok(bret, "Current User ACE != Current User SID.\n");
++        ok(bret, "Current User ACE != Current User SID.\n");
+         ok(((ACE_HEADER *)ace)->AceFlags == 0,
+            "Current User ACE has unexpected flags (0x%x != 0x0)\n", ((ACE_HEADER *)ace)->AceFlags);
+-        ok(ace->Mask == 0x1f01ff, "Current User ACE has unexpected mask (0x%x != 0x1f01ff)\n",
+-                                  ace->Mask);
++        todo_wine ok(ace->Mask == 0x1f01ff,
++                     "Current User ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
+     }
+     if (acl_size.AceCount > 1)
+     {
+         bret = pGetAce(pDacl, 1, (VOID **)&ace);
+         ok(bret, "Failed to get Administators Group ACE.\n");
+         bret = EqualSid(&ace->SidStart, admin_sid);
+-        todo_wine ok(bret || broken(!bret) /* win2k */,
+-                     "Administators Group ACE != Administators Group SID.\n");
++        ok(bret || broken(!bret) /* win2k */, "Administators Group ACE != Administators Group SID.\n");
+         ok(((ACE_HEADER *)ace)->AceFlags == 0,
+            "Administators Group ACE has unexpected flags (0x%x != 0x0)\n", ((ACE_HEADER *)ace)->AceFlags);
+-        ok(ace->Mask == 0x1f01ff || broken(ace->Mask == GENERIC_ALL) /* win2k */,
+-           "Administators Group ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
++        todo_wine ok(ace->Mask == 0x1f01ff || broken(ace->Mask == GENERIC_ALL) /* win2k */,
++                     "Administators Group ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
+     }
+     LocalFree(pSD);
+     HeapFree(GetProcessHeap(), 0, user);
+@@ -3960,22 +3959,22 @@ static void test_GetSecurityInfo(void)
+         bret = pGetAce(pDacl, 0, (VOID **)&ace);
+         ok(bret, "Failed to get Current User ACE.\n");
+         bret = EqualSid(&ace->SidStart, user_sid);
+-        todo_wine ok(bret, "Current User ACE != Current User SID.\n");
++        ok(bret, "Current User ACE != Current User SID.\n");
+         ok(((ACE_HEADER *)ace)->AceFlags == 0,
+            "Current User ACE has unexpected flags (0x%x != 0x0)\n", ((ACE_HEADER *)ace)->AceFlags);
+-        ok(ace->Mask == 0x1f01ff, "Current User ACE has unexpected mask (0x%x != 0x1f01ff)\n",
+-                                    ace->Mask);
++        todo_wine ok(ace->Mask == 0x1f01ff,
++                     "Current User ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
+     }
+     if (acl_size.AceCount > 1)
+     {
+         bret = pGetAce(pDacl, 1, (VOID **)&ace);
+         ok(bret, "Failed to get Administators Group ACE.\n");
+         bret = EqualSid(&ace->SidStart, admin_sid);
+-        todo_wine ok(bret, "Administators Group ACE != Administators Group SID.\n");
++        ok(bret, "Administators Group ACE != Administators Group SID.\n");
+         ok(((ACE_HEADER *)ace)->AceFlags == 0,
+            "Administators Group ACE has unexpected flags (0x%x != 0x0)\n", ((ACE_HEADER *)ace)->AceFlags);
+-        ok(ace->Mask == 0x1f01ff, "Administators Group ACE has unexpected mask (0x%x != 0x1f01ff)\n",
+-                                  ace->Mask);
++        todo_wine ok(ace->Mask == 0x1f01ff,
++                     "Administators Group ACE has unexpected mask (0x%x != 0x1f01ff)\n", ace->Mask);
+     }
+     CloseHandle(obj);
+ }
+diff --git a/server/change.c b/server/change.c
+index c391180..77c01bb 100644
+--- a/server/change.c
++++ b/server/change.c
+@@ -287,7 +287,7 @@ static struct security_descriptor *dir_get_sd( struct object *obj )
+     assert( obj->ops == &dir_ops );
+ 
+     fd = dir_get_fd( obj );
+-    sd = set_file_sd( obj, fd, &dir->mode, &dir->uid );
++    sd = get_file_sd( obj, fd, &dir->mode, &dir->uid );
+     release_object( fd );
+     return sd;
+ }
+diff --git a/server/file.c b/server/file.c
+index b9106a8..c4706b6 100644
+--- a/server/file.c
++++ b/server/file.c
+@@ -496,12 +496,33 @@ struct security_descriptor *mode_to_sd( mode_t mode, const SID *user, const SID
+     return sd;
+ }
+ 
++struct security_descriptor *get_xattr_sd( int fd )
++{
++#ifdef HAVE_ATTR_XATTR_H
++    struct security_descriptor *sd;
++    char buffer[XATTR_SIZE_MAX];
++    int n;
++
++    n = fgetxattr( fd, "user.wine.sd", buffer, sizeof(buffer) );
++    if (n == -1) return NULL;
++    /* validate that we can handle the descriptor */
++    if (buffer[0] != SECURITY_DESCRIPTOR_REVISION || buffer[1] != 0) return NULL;
++
++    sd = mem_alloc( n - 2 );
++    memcpy( sd, &buffer[2], n - 2 );
++    return sd;
++#else
++    return NULL;
++#endif
++}
++
+ struct security_descriptor *get_file_sd( struct object *obj, struct fd *fd, mode_t *mode,
+                                          uid_t *uid )
+ {
+     int unix_fd = get_unix_fd( fd );
+     struct stat st;
+     struct security_descriptor *sd;
++    const SID *user, *group;
+ 
+     if (unix_fd == -1 || fstat( unix_fd, &st ) == -1)
+         return obj->sd;
+@@ -511,9 +532,10 @@ struct security_descriptor *get_file_sd( struct object *obj, struct fd *fd, mode
+         (st.st_uid == *uid))
+         return obj->sd;
+ 
+-    sd = mode_to_sd( st.st_mode,
+-                     security_unix_uid_to_sid( st.st_uid ),
+-                     token_get_primary_group( current->process->token ));
++    user = security_unix_uid_to_sid( st.st_uid );
++    group = token_get_primary_group( current->process->token );
++    sd = get_xattr_sd( unix_fd );
++    if (!sd) sd = mode_to_sd( st.st_mode, user, group);
+     if (!sd) return obj->sd;
+ 
+     *mode = st.st_mode;
+-- 
+1.7.9.5
+
