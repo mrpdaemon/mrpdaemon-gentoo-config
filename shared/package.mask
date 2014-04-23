@@ -2,7 +2,7 @@
 sys-boot/grub:2
 
 # wine with netflix patches
->app-emulation/wine-1.7.10
+>app-emulation/wine-1.7.17
 
 # new keepass doesn't work with old databases
 >=app-admin/keepassx-2.0_alpha5
