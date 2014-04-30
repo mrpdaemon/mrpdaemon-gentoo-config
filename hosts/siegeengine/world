@@ -95,6 +95,7 @@ media-sound/neroaac
 media-sound/pavucontrol
 media-sound/rhythmbox
 media-sound/sound-juicer
+media-sound/spotify
 media-sound/vorbisgain
 media-tv/plex-media-server
 media-video/dvdbackup
@@ -162,7 +163,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.13.9
-sys-kernel/gentoo-sources:3.14.1
+sys-kernel/gentoo-sources:3.14.2
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
