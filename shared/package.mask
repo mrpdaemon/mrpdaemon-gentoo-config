@@ -13,3 +13,6 @@ sys-boot/grub:2
 # Temporary masks until libreoffice is updated
 =dev-libs/liborcus-0.7.0
 =dev-libs/libixion-0.7.0
+
+# Compile error due to llvm issue bug #509034
+=media-libs/mesa-10.1.1
