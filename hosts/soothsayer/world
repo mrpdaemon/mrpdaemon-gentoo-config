@@ -101,6 +101,7 @@ x11-misc/alacarte
 x11-misc/driconf
 x11-misc/gwakeonlan
 x11-misc/xsensors
+x11-plugins/pidgin-sipe
 x11-terms/finalterm
 x11-terms/guake
 x11-terms/terminator
