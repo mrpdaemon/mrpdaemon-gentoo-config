@@ -163,7 +163,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.13.9
-sys-kernel/gentoo-sources:3.14.2
+sys-kernel/gentoo-sources:3.14.3
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
