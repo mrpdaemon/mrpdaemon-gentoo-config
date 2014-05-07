@@ -118,6 +118,7 @@ net-fs/davfs2
 net-fs/nfs-utils
 net-ftp/ftp
 net-ftp/proftpd
+net-im/pidgin
 net-im/skype
 net-irc/smuxi
 net-libs/nodejs
@@ -180,6 +181,7 @@ x11-misc/alacarte
 x11-misc/vdpauinfo
 x11-misc/virtualgl
 x11-misc/xsensors
+x11-plugins/pidgin-sipe
 x11-terms/finalterm
 x11-terms/guake
 x11-terms/terminator
