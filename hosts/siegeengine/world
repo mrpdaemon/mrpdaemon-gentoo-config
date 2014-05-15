@@ -80,7 +80,6 @@ media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/inkscape
 media-gfx/shotwell
-media-plugins/alsa-plugins
 media-plugins/frei0r-plugins
 media-plugins/gst-plugins-libav
 media-sound/aacgain
@@ -90,7 +89,6 @@ media-sound/google-musicmanager
 media-sound/grip
 media-sound/mp3gain
 media-sound/mp3info
-media-sound/mt-daapd
 media-sound/neroaac
 media-sound/pavucontrol
 media-sound/rhythmbox
@@ -164,13 +162,14 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.13.9
-sys-kernel/gentoo-sources:3.14.3
+sys-kernel/gentoo-sources:3.14.4
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/chromium
+www-client/firefox
 www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
 www-servers/apache
