@@ -16,3 +16,6 @@ sys-boot/grub:2
 
 # Timezone data broken
 =sys-libs/timezone-data-2014c
+
+# conflicts with drivers not supporting it
+=x11-base/xorg-server-1.15.99.902
