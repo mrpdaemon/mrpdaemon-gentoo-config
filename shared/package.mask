@@ -13,9 +13,3 @@ sys-boot/grub:2
 # Temporary masks until libreoffice is updated
 =dev-libs/liborcus-0.7.0
 =dev-libs/libixion-0.7.0
-
-# Timezone data broken
-=sys-libs/timezone-data-2014c
-
-# conflicts with drivers not supporting it
-=x11-base/xorg-server-1.15.99.902
