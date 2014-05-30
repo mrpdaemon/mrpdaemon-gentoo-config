@@ -1,2 +1,0 @@
-# conflicts with nvidia-drivers not supporting it
->=x11-base/xorg-server-1.15.99.902
