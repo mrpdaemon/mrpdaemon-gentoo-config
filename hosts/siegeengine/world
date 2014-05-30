@@ -9,7 +9,6 @@ app-benchmarks/gtkperf
 app-benchmarks/i7z
 app-doc/doxygen
 app-editors/ghex
-app-editors/nano
 app-editors/vim
 app-emulation/qemu
 app-emulation/virt-manager
