@@ -100,6 +100,7 @@
 >=media-gfx/gnome-photos-3.12.1
 >=media-gfx/gnome-screenshot-3.12.0
 >=media-libs/clutter-1.18.2
+>=media-libs/clutter-gtk-1.5
 >=media-libs/cogl-1.18.0
 >=media-libs/libmediaart-0.4.0
 >=media-plugins/grilo-plugins-0.2.12
