@@ -93,6 +93,7 @@ sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/chromium
+www-client/firefox
 www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
 x11-apps/xinput
