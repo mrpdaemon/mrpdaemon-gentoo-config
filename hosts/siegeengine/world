@@ -59,6 +59,7 @@ dev-vcs/gitg
 dev-vcs/tig
 games-util/steam-meta
 gnome-base/gnome
+gnome-extra/california
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
 gnome-extra/gnome-weather
@@ -160,7 +161,8 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.13.9
-sys-kernel/gentoo-sources:3.14.4
+sys-kernel/gentoo-sources:3.14.5-r1
+sys-kernel/gentoo-sources:3.14.6
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
