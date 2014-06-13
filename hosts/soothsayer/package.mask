@@ -1,2 +1,0 @@
-# bug 512222 with gettext 0.19
-=dev-util/meld-1.8.5
