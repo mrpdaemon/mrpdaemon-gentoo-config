@@ -30,6 +30,7 @@ dev-util/meld
 dev-vcs/git
 dev-vcs/tig
 gnome-base/gnome
+gnome-extra/california
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
 gnome-extra/gnome-power-manager
@@ -84,8 +85,8 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.13.9
-sys-kernel/gentoo-sources:3.14.5
-sys-kernel/gentoo-sources:3.14.5-r1
+sys-kernel/gentoo-sources:3.14.6
+sys-kernel/gentoo-sources:3.14.7
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
