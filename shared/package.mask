@@ -7,13 +7,10 @@ sys-boot/grub:2
 # new keepass doesn't work with old databases
 >=app-admin/keepassx-2.0_alpha5
 
-# perf regression
-=gnome-base/gnome-shell-3.10.4-r2
-
 # Temporary masks until libreoffice is updated
 =dev-libs/liborcus-0.7.0
 =dev-libs/libixion-0.7.0
 
 # siegeengine: conflicts with nvidia-drivers not supporting it
 # soothsayer: breaks keyboard
->=x11-base/xorg-server-1.15.99.902
+#>=x11-base/xorg-server-1.15.99.902
