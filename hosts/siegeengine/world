@@ -55,7 +55,6 @@ dev-util/strace
 dev-util/vbindiff
 dev-vcs/bzr
 dev-vcs/git
-dev-vcs/gitg
 dev-vcs/tig
 games-util/steam-meta
 gnome-base/gnome
