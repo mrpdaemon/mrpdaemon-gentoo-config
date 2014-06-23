@@ -84,8 +84,6 @@ sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
-sys-kernel/gentoo-sources:3.13.9
-sys-kernel/gentoo-sources:3.14.7
 sys-kernel/gentoo-sources:3.14.8
 sys-kernel/gentoo-sources:3.15.1
 sys-kernel/linux-firmware
