@@ -35,7 +35,9 @@ gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
 gnome-extra/gnome-power-manager
 gnome-extra/gnome-weather
+gnome-extra/gtkparasite
 gnome-extra/nautilus-dropbox
+mail-client/geary
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/terminus-font
@@ -54,8 +56,10 @@ net-analyzer/openbsd-netcat
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-fs/nfs-utils
+net-im/corebird
 net-im/skype
 net-irc/irssi
+net-irc/polari
 net-irc/smuxi
 net-misc/dhcpcd
 net-misc/dropbox
@@ -85,7 +89,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.14.8
-sys-kernel/gentoo-sources:3.15.1
+sys-kernel/gentoo-sources:3.15.5
 sys-kernel/linux-firmware
 sys-power/bbswitch
 sys-power/powertop
