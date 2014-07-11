@@ -59,14 +59,18 @@ dev-vcs/tig
 games-util/steam-meta
 gnome-base/gnome
 gnome-extra/california
+gnome-extra/evolution-ews
+gnome-extra/gnome-boxes
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
+gnome-extra/gnome-getting-started-docs
 gnome-extra/gnome-weather
 gnome-extra/gtkparasite
 gnome-extra/nautilus-dropbox
 gnome-extra/nautilus-open-terminal
 gnome-extra/nautilus-sendto
 mail-client/geary
+mail-client/thunderbird
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
@@ -83,6 +87,7 @@ media-gfx/inkscape
 media-gfx/shotwell
 media-plugins/frei0r-plugins
 media-plugins/gst-plugins-libav
+media-plugins/gst-plugins-vaapi
 media-sound/aacgain
 media-sound/audacity
 media-sound/gnome-music
@@ -164,7 +169,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.14.8
-sys-kernel/gentoo-sources:3.15.4
+sys-kernel/gentoo-sources:3.15.5
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
@@ -177,6 +182,7 @@ www-plugins/google-talkplugin
 www-servers/apache
 x11-apps/xev
 x11-drivers/nvidia-drivers
+x11-libs/libva-vdpau-driver
 x11-libs/pangox-compat
 x11-misc/alacarte
 x11-misc/vdpauinfo
