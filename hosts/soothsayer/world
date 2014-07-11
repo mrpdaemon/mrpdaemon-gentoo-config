@@ -31,6 +31,7 @@ dev-vcs/git
 dev-vcs/tig
 gnome-base/gnome
 gnome-extra/california
+gnome-extra/evolution-ews
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
 gnome-extra/gnome-power-manager
@@ -46,6 +47,7 @@ media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/shotwell
+media-plugins/gst-plugins-vaapi
 media-sound/google-musicmanager
 media-sound/pavucontrol
 media-sound/rhythmbox
