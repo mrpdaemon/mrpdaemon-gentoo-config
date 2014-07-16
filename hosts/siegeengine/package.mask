@@ -1,0 +1,5 @@
+# Breaks stuff (softirq storm)
+=net-wireless/broadcom-sta-6.30.223.248
+
+# Broken udev rule file causing auto assembly to not work #517218
+=sys-fs/mdadm-3.3.1
