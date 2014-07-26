@@ -108,6 +108,7 @@ www-plugins/chrome-binary-plugins
 www-plugins/google-talkplugin
 x11-apps/xinput
 x11-misc/alacarte
+x11-misc/bumblebee
 x11-misc/driconf
 x11-misc/gwakeonlan
 x11-misc/xsensors
