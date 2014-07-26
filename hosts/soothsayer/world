@@ -51,6 +51,7 @@ media-plugins/gst-plugins-vaapi
 media-sound/google-musicmanager
 media-sound/pavucontrol
 media-sound/rhythmbox
+media-sound/spotify
 media-video/mplayer
 media-video/uvcdynctrl
 net-analyzer/nmap
