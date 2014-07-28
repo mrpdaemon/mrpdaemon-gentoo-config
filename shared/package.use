@@ -48,6 +48,9 @@ media-sound/pulseaudio realtime
 # Remmina remote desktop support
 net-misc/remmina freerdp ssh vte
 
+# fontconfig support for gd
+media-libs/gd fontconfig
+
 # Don't want to see .desktop entries for these packages
 dev-python/bpython -gtk
 app-arch/p7zip -wxwidgets
