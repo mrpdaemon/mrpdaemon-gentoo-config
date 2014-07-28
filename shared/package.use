@@ -116,6 +116,3 @@ x11-plugins/pidgin-sipe telepathy
 # GNOME 3.12
 www-servers/apache apache2_modules_auth_digest
 app-misc/tracker -ffmpeg
-
-# Pidgin crashes with gst plugin ffmpeg
-net-im/pidgin -gstreamer

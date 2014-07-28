@@ -14,3 +14,6 @@ sys-boot/grub:2
 
 # Breaks NetworkManager
 =dev-libs/libnl-3.2.25_rc1
+
+# Breaks totem bug #518338
+=media-video/ffmpeg-2.3
