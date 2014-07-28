@@ -68,7 +68,6 @@ gnome-extra/gnome-weather
 gnome-extra/gtkparasite
 gnome-extra/nautilus-dropbox
 gnome-extra/nautilus-open-terminal
-gnome-extra/nautilus-sendto
 mail-client/geary
 mail-client/thunderbird
 media-fonts/corefonts

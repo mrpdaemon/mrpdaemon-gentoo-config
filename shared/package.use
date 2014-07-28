@@ -27,7 +27,7 @@ app-office/libreoffice java
 # NetworkManager needs avahi with autoipd
 net-dns/avahi autoipd
 
-# without this emerge takes forever due to backtracking
+# required by vinagre/remmina
 net-dns/avahi gtk3
 
 # Build patented TrueType interpreter
@@ -36,31 +36,17 @@ media-libs/freetype bindist
 # Freetype with infinality patchset
 media-libs/freetype infinality
 
-# Freetype with Adobe CFF 
-media-libs/freetype adobe-cff
-
-# Enable nautilus-sendto extension + empathy
-gnome-base/nautilus sendto
+# XMP support for nautilus
+gnome-base/nautilus xmp
 
 # ICQ/Yahoo support for empathy
 net-im/telepathy-connection-managers icq yahoo
-
-# Pidgin disable evolution-data-server support
-net-im/pidgin -eds
 
 # Pulseaudio to use realtime scheduling
 media-sound/pulseaudio realtime
 
 # Remmina remote desktop support
 net-misc/remmina freerdp ssh vte
-
-# Graph support for bugzilla
-www-apps/bugzilla graphviz
-# Graphviz requires gd[fontconfig]
-media-libs/gd fontconfig
-
-# mysqld / apache2 units
-sys-apps/systemd-units server
 
 # Don't want to see .desktop entries for these packages
 dev-python/bpython -gtk
@@ -78,9 +64,6 @@ dev-vcs/git tk
 games-util/steam-meta steamruntime
 games-util/steam-launcher steamruntime
 
-# required by gnome-control-center
-net-fs/cifs-utils upcall ads
-
 # gnome-boxes requirement
 app-emulation/qemu spice
 
@@ -91,19 +74,8 @@ app-cdr/brasero -libburn
 app-text/aspell linguas_tr
 app-text/hunspell linguas_tr
 
-# gnome-control-center needs this
-net-fs/samba winbind
-
 # needed for SSL support
 net-ftp/proftpd openssl
-
-# OpenVG acceleration
-x11-libs/cairo openvg
-media-libs/mesa openvg
-
-# Improves cogl performance
-media-libs/mesa gles2
-media-libs/cogl gles2
 
 # doesn't work with acl
 net-ftp/proftpd -acl
@@ -118,16 +90,10 @@ media-sound/audacity id3tag
 dev-util/anjuta devhelp
 
 # Prefer GTK3 interface for wireshark
-net-analyzer/wireshark gtk3 -gtk2 -qt4
+net-analyzer/wireshark gtk3 -qt4
 
 # Support FUSE for legacy apps in gvfs
 gnome-base/gvfs fuse
-
-# Enable sys-apps/gnome-disk-utility integration in gvfs
-gnome-base/gvfs gdu
-
-# Install hostip.info provider for geoclue
-app-misc/geoclue hostip
 
 # Use LDAP support for evolution address books
 mail-client/evolution ldap
@@ -135,23 +101,11 @@ mail-client/evolution ldap
 # Required by prelink required by wine
 dev-libs/elfutils static-libs
 
-# Don't build qt frontend for Hotot
-net-misc/hotot -qt4
-
 # Don't need GNOME games
 gnome-base/gnome-extra-apps -games
 
-# bohoomil infinality settings
-media-libs/fontconfig-infinality bohoomil
-app-admin/eselect-lcdfilter bohoomil
-
 # GNOME 3.10
-net-misc/networkmanager modemmanager
 media-plugins/grilo-plugins upnp-av
-media-libs/grilo playlist
-
-# mesa-9.2.5-r1 doesn't merge otherwise bug #481316
-media-libs/mesa llvm-shared-libs
 
 # linux 3.14 has inbox vmci and vsock
 app-emulation/vmware-modules -vmci -vsock
@@ -162,4 +116,6 @@ x11-plugins/pidgin-sipe telepathy
 # GNOME 3.12
 www-servers/apache apache2_modules_auth_digest
 app-misc/tracker -ffmpeg
-media-libs/libmediaart -qt4
+
+# Pidgin crashes with gst plugin ffmpeg
+net-im/pidgin -gstreamer
