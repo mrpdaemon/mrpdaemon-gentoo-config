@@ -80,10 +80,6 @@ app-text/hunspell linguas_tr
 # needed for SSL support
 net-ftp/proftpd openssl
 
-# OpenVG acceleration
-x11-libs/cairo openvg
-media-libs/mesa openvg
-
 # Improves cogl performance
 media-libs/mesa gles2
 media-libs/cogl gles2
