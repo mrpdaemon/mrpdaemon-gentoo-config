@@ -17,3 +17,6 @@ sys-boot/grub:2
 
 # Breaks totem bug #518338
 =media-video/ffmpeg-2.3
+
+# compile error bug #518568
+=app-emulation/libvirt-1.2.6
