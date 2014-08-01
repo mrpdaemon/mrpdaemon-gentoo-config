@@ -1,0 +1,13 @@
+diff --git a/src/window/VideoDialog.vala b/src/window/VideoDialog.vala
+index c30fa1b..2933016 100644
+--- a/src/window/VideoDialog.vala
++++ b/src/window/VideoDialog.vala
+@@ -39,7 +39,7 @@ class VideoDialog : Gtk.Window {
+     drawing_area.realize.connect (realize_cb);
+ #if VIDEO
+     this.src  = Gst.ElementFactory.make ("playbin", "video");
+-    this.sink = Gst.ElementFactory.make ("xvimagesink", "sink");
++    this.sink = Gst.ElementFactory.make ("vaapisink", "sink");
+     this.src.set ("video-sink", sink, null);
+     var bus = src.get_bus ();
+     bus.set_sync_handler (bus_sync_handler);
