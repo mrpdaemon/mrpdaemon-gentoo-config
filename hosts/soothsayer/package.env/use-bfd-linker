@@ -1,0 +1,2 @@
+sys-libs/db use-bfd-linker.conf
+dev-libs/openssl use-bfd-linker.conf
