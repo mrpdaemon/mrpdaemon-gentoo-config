@@ -11,13 +11,3 @@ sys-boot/grub:2
 # Temporary masks until libreoffice is updated
 =dev-libs/liborcus-0.7.0
 =dev-libs/libixion-0.7.0
-
-# Breaks NetworkManager
-=dev-libs/libnl-3.2.25_rc1
-
-# Breaks totem bug #518338
-=media-video/ffmpeg-2.3
-=media-video/ffmpeg-2.3.1
-
-# compile error bug #518568
-=app-emulation/libvirt-1.2.6
