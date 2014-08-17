@@ -93,11 +93,14 @@ sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
-sys-kernel/gentoo-sources:3.14.8
-sys-kernel/gentoo-sources:3.15.8
+sys-kernel/gentoo-sources:3.15.10
+sys-kernel/gentoo-sources:3.16.1
 sys-kernel/linux-firmware
+sys-power/acpid
 sys-power/bbswitch
+sys-power/cpupower
 sys-power/powertop
+sys-power/thermald
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
