@@ -12,7 +12,6 @@ app-editors/ghex
 app-editors/vim
 app-emulation/qemu
 app-emulation/virt-manager
-app-emulation/virtualbox
 app-emulation/vmware-modules
 app-emulation/vmware-view
 app-emulation/vmware-workstation
@@ -104,7 +103,6 @@ media-tv/plex-media-server
 media-video/dvdbackup
 media-video/handbrake
 media-video/luvcview
-media-video/makemkv
 media-video/mediainfo
 media-video/mplayer
 media-video/pitivi
