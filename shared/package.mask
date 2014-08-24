@@ -11,3 +11,6 @@ sys-boot/grub:2
 # Temporary masks until libreoffice is updated
 =dev-libs/liborcus-0.7.0
 =dev-libs/libixion-0.7.0
+
+# Temporary - fails compile
+=app-misc/screen-4.2.1-r2
