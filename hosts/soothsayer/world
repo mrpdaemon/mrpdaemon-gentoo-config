@@ -53,7 +53,6 @@ media-sound/pavucontrol
 media-sound/rhythmbox
 media-sound/spotify
 media-video/mplayer
-media-video/uvcdynctrl
 net-analyzer/nmap
 net-analyzer/openbsd-netcat
 net-analyzer/traceroute
@@ -116,7 +115,6 @@ x11-misc/driconf
 x11-misc/gwakeonlan
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
-x11-terms/finalterm
 x11-terms/guake
 x11-terms/terminator
 x11-themes/faenza-icon-theme
