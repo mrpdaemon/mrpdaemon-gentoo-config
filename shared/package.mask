@@ -14,3 +14,6 @@ sys-boot/grub:2
 
 # Temporary - fails compile
 =app-misc/screen-4.2.1-r2
+
+# No network
+=net-misc/dhcpcd-6.4.4
