@@ -126,3 +126,6 @@ app-misc/tracker -ffmpeg
 
 # xml use flag (default) requires this
 dev-db/mariadb extraengine
+
+# stop log spam from gom-flickr-miner
+media-plugins/grilo-plugins flickr
