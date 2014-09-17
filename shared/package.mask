@@ -12,8 +12,5 @@ sys-boot/grub:2
 =dev-libs/liborcus-0.7.0
 =dev-libs/libixion-0.7.0
 
-# Temporary - fails compile
-=app-misc/screen-4.2.1-r2
-
 # No network
 =net-misc/dhcpcd-6.4.4
