@@ -142,6 +142,7 @@ sys-apps/gnome-disk-utility
 sys-apps/hdparm
 sys-apps/less
 sys-apps/lm_sensors
+sys-apps/microcode-ctl
 sys-apps/pv
 sys-apps/systemd-ui
 sys-apps/usbutils
@@ -159,6 +160,7 @@ sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.15.10
 sys-kernel/gentoo-sources:3.16.2
+sys-kernel/gentoo-sources:3.16.3
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
