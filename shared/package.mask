@@ -7,10 +7,3 @@ sys-boot/grub:2
 
 # new keepass doesn't work with old databases
 >=app-admin/keepassx-2.0_alpha5
-
-# Temporary masks until libreoffice is updated
-=dev-libs/liborcus-0.7.0
-=dev-libs/libixion-0.7.0
-
-# No network
-=net-misc/dhcpcd-6.4.4
