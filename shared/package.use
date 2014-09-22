@@ -129,3 +129,6 @@ dev-db/mariadb extraengine
 
 # stop log spam from gom-flickr-miner
 media-plugins/grilo-plugins flickr
+
+# wine with compholio patches
+app-emulation/wine pipelight

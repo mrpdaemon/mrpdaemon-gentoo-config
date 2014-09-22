@@ -1,9 +1,5 @@
 # Don't want grub-2
 sys-boot/grub:2
 
-# wine with netflix patches
-# Hearthstone is broken for >1.7.17 http://bugs.winehq.org/show_bug.cgi?id=36216
->app-emulation/wine-1.7.20
-
 # new keepass doesn't work with old databases
 >=app-admin/keepassx-2.0_alpha5
