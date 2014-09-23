@@ -3,3 +3,4 @@ app-emulation/virtualbox use-bfd-linker.conf
 sys-fs/ntfs3g use-bfd-linker.conf
 dev-db/mariadb use-bfd-linker.conf
 dev-libs/openssl use-bfd-linker.conf
+sys-fs/fuse use-bfd-linker.conf

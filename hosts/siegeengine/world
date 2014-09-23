@@ -120,7 +120,6 @@ net-irc/smuxi
 net-libs/nodejs
 net-misc/bridge-utils
 net-misc/clamz
-net-misc/dhcpcd
 net-misc/dropbox
 net-misc/mosh
 net-misc/netkit-telnetd
