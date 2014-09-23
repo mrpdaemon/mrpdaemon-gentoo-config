@@ -1,2 +1,3 @@
 sys-libs/db use-bfd-linker.conf
 dev-libs/openssl use-bfd-linker.conf
+sys-fs/fuse use-bfd-linker.conf
