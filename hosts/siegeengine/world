@@ -101,6 +101,7 @@ media-video/mediainfo
 media-video/mplayer
 media-video/pitivi
 media-video/recordmydesktop
+media-video/simplescreenrecorder
 media-video/vobcopy
 media-video/x264-encoder
 net-analyzer/netselect
@@ -134,6 +135,7 @@ net-print/hplip
 net-wireless/broadcom-sta
 net-wireless/iw
 net-wireless/rfkill
+net-wireless/wavemon
 sci-geosciences/gnome-maps
 sys-apps/dmidecode
 sys-apps/ethtool
