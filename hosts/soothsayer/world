@@ -1,5 +1,4 @@
 app-admin/keepassx
-app-admin/syslog-ng
 app-benchmarks/i7z
 app-editors/ghex
 app-editors/vim
@@ -20,15 +19,12 @@ app-shells/gentoo-bashcomp
 app-text/acroread
 dev-java/icedtea
 dev-java/maven-bin
-dev-python/snakeoil
-dev-python/sphinx
 dev-util/android-ndk
 dev-util/android-sdk-update-manager
 dev-util/anjuta
 dev-util/devhelp
 dev-util/meld
 dev-vcs/git
-dev-vcs/tig
 gnome-base/gnome
 gnome-extra/california
 gnome-extra/evolution-ews
@@ -47,7 +43,6 @@ media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/shotwell
-media-libs/glew
 media-plugins/gst-plugins-vaapi
 media-sound/google-musicmanager
 media-sound/pavucontrol
@@ -55,7 +50,6 @@ media-sound/rhythmbox
 media-sound/spotify
 media-video/mplayer
 net-analyzer/nmap
-net-analyzer/openbsd-netcat
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-fs/nfs-utils
@@ -87,7 +81,6 @@ sys-auth/pam_mount
 sys-boot/grub:0
 sys-devel/distcc
 sys-devel/gcc
-sys-devel/gcc:4.7
 sys-devel/gcc:4.8
 sys-devel/gdb
 sys-fs/dosfstools
