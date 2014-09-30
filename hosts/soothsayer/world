@@ -75,6 +75,7 @@ net-print/cupswrapper-brother-hl2270dw
 net-print/hplip
 net-wireless/iw
 net-wireless/rfkill
+net-wireless/wavemon
 net-wireless/wpa_supplicant
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
