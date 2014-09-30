@@ -88,6 +88,7 @@ sys-boot/grub:0
 sys-devel/distcc
 sys-devel/gcc
 sys-devel/gcc:4.7
+sys-devel/gcc:4.8
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/ecryptfs-utils
