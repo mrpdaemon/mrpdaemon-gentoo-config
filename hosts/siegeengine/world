@@ -30,6 +30,7 @@ dev-db/mariadb
 dev-java/icedtea
 dev-java/maven-bin
 dev-lang/go
+dev-libs/libcgroup
 dev-python/bpython
 dev-util/android-ndk
 dev-util/android-sdk-update-manager
