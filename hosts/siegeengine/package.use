@@ -1,0 +1,2 @@
+www-client/chromium custom-cflags
+app-emulation/wine custom-cflags

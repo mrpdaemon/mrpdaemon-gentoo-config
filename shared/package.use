@@ -134,8 +134,6 @@ media-plugins/grilo-plugins flickr
 app-emulation/wine pipelight
 
 # use my CFLAGS as much as possible
-app-emulation/wine custom-cflags
 media-libs/libsdl custom-cflags
-www-client/chromium custom-cflags
 media-video/x264-encoder custom-cflags
 x11-libs/gtk+ custom-cflags
