@@ -1,0 +1,3 @@
+app-emulation/wine no-stack-protector.conf
+media-video/x264-encoder no-stack-protector.conf
+
