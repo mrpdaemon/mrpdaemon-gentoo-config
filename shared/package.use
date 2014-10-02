@@ -138,3 +138,4 @@ app-emulation/wine custom-cflags
 media-libs/libsdl custom-cflags
 www-client/chromium custom-cflags
 media-video/x264-encoder custom-cflags
+x11-libs/gtk+ custom-cflags
