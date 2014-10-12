@@ -40,6 +40,7 @@ dev-util/meld
 dev-util/strace
 dev-vcs/bzr
 dev-vcs/git
+dev-vcs/gitg
 games-util/steam-meta
 gnome-base/gnome
 gnome-extra/california
@@ -51,7 +52,6 @@ gnome-extra/gnome-getting-started-docs
 gnome-extra/gnome-weather
 gnome-extra/gtkparasite
 gnome-extra/nautilus-dropbox
-gnome-extra/nautilus-open-terminal
 mail-client/geary
 media-fonts/corefonts
 media-fonts/droid
@@ -151,7 +151,8 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.15.10
-sys-kernel/gentoo-sources:3.16.3
+sys-kernel/gentoo-sources:3.16.4
+sys-kernel/gentoo-sources:3.16.5
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop

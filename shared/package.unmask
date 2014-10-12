@@ -1,1 +1,4 @@
 sys-devel/gcc:4.9
+
+# temporary for gitg
+dev-libs/libgit2-glib
