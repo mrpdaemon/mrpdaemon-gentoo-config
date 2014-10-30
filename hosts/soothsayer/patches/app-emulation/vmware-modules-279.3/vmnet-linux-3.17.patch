@@ -1,0 +1,23 @@
+diff -rupN source.orig/vmnet-only/netif.c source/vmnet-only/netif.c
+--- source.orig/vmnet-only/netif.c	2014-06-13 03:38:25.000000000 +0300
++++ source/vmnet-only/netif.c	2014-10-10 04:46:42.179229797 +0300
+@@ -149,7 +149,7 @@ VNetNetIf_Create(char *devName,  // IN:
+    memcpy(deviceName, devName, sizeof deviceName);
+    NULL_TERMINATE_STRING(deviceName);
+ 
+-   dev = alloc_netdev(sizeof *netIf, deviceName, VNetNetIfSetup);
++   dev = alloc_netdev(sizeof *netIf, deviceName, NET_NAME_UNKNOWN, VNetNetIfSetup);
+    if (!dev) {
+       retval = -ENOMEM;
+       goto out;
+diff -rupN source.orig/vmnet-only/vm_assert.h source/vmnet-only/vm_assert.h
+--- source.orig/vmnet-only/vm_assert.h	2014-06-13 03:38:25.000000000 +0300
++++ source/vmnet-only/vm_assert.h	2014-10-10 04:21:26.959236913 +0300
+@@ -256,6 +256,7 @@ void WarningThrottled(uint32 *count, con
+                                        __FILE__, __LINE__, __FUNCTION__, \
+                                        _fix))
+ #else
++   #undef DEPRECATED /* in <linux/printk.h> since 3.14.0 */
+    #define DEPRECATED(_fix) do {} while (0)
+ #endif
+ 
