@@ -1,0 +1,27 @@
+diff -urN pidgin-2.10.10.orig/configure.ac pidgin-2.10.10.dw/configure.ac
+--- pidgin-2.10.10.orig/configure.ac	2014-10-17 02:19:33.000000000 +0200
++++ pidgin-2.10.10.dw/configure.ac	2014-10-29 14:35:52.764573377 +0100
+@@ -569,12 +569,12 @@
+ 	dnl # Check for stuff needed by the Evolution integration plugin.
+ 	dnl #######################################################################
+ 	if test "x$enable_gevolution" = "xyes"; then
+-		evo_deps="libebook-1.2 libedata-book-1.2 evolution-data-server-1.2 < 3.6"
++		evo_deps="libebook-1.2 libedata-book-1.2 evolution-data-server-1.2 >= 3.6"
+ 		PKG_CHECK_MODULES(EVOLUTION_ADDRESSBOOK, $evo_deps, , [
+ 			enable_gevolution="no"
+ 		])
+ 		if test "x$enable_gevolution" = "xno"; then
+-			evo_deps="libebook-1.0 libedata-book-1.0"
++			evo_deps="libebook-1.2 libedata-book-1.2"
+ 			PKG_CHECK_MODULES(EVOLUTION_ADDRESSBOOK, $evo_deps, [
+ 				enable_gevolution="yes"
+ 			], [
+@@ -588,7 +588,7 @@
+ 		else
+ 			if test "x$force_deps" = "xyes" ; then
+ 				AC_MSG_ERROR([
+-Evolution development headers not found (libebook, libedata-book, evolution-data-server < 3.6).
++Evolution development headers not found (libebook, libedata-book, evolution-data-server >= 3.6).
+ Use --disable-gevolution if you do not need it.
+ ])
+ 			fi
