@@ -56,6 +56,7 @@ net-analyzer/traceroute
 net-analyzer/wireshark
 net-fs/nfs-utils
 net-im/corebird
+net-im/pidgin
 net-im/skype
 net-irc/irssi
 net-irc/polari
@@ -91,7 +92,7 @@ sys-fs/encfs
 sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.16.6
-sys-kernel/gentoo-sources:3.17.1-r1
+sys-kernel/gentoo-sources:3.17.2
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
