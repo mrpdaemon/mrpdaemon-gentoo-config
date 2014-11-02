@@ -137,3 +137,6 @@ app-emulation/wine pipelight
 media-libs/libsdl custom-cflags
 media-video/x264-encoder custom-cflags
 x11-libs/gtk+ custom-cflags
+
+# infinality rendering for Java
+dev-java/icedtea infinality
