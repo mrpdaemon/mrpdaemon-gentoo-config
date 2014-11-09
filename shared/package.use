@@ -58,7 +58,7 @@ media-video/mediainfo -wxwidgets
 dev-util/cmake -qt4
 app-doc/doxygen -qt4
 net-analyzer/nmap -gtk
-sys-devel/distcc -gtk
+sys-devel/distcc -gtk -gnome
 
 # gitk support for git
 dev-vcs/git tk
