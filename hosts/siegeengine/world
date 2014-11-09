@@ -64,7 +64,6 @@ media-fonts/ubuntu-font-family
 media-gfx/argyllcms
 media-gfx/dispcalgui
 media-gfx/gimp
-media-gfx/gnome-photos
 media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/inkscape
@@ -74,7 +73,6 @@ media-plugins/gst-plugins-libav
 media-plugins/gst-plugins-vaapi
 media-sound/aacgain
 media-sound/audacity
-media-sound/gnome-music
 media-sound/google-musicmanager
 media-sound/grip
 media-sound/mp3gain
