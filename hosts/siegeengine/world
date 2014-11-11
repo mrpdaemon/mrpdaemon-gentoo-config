@@ -17,6 +17,7 @@ app-misc/screen
 app-misc/solaar
 app-office/libreoffice
 app-portage/eix
+app-portage/euscan
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
@@ -105,7 +106,6 @@ net-ftp/proftpd
 net-im/corebird
 net-im/pidgin
 net-im/skype
-net-irc/polari
 net-irc/smuxi
 net-libs/nodejs
 net-misc/bridge-utils
