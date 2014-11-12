@@ -6,6 +6,3 @@ sys-boot/grub:2
 
 # breaks Battle.net
 =app-emulation/wine-1.7.29
-
-# breaks wine and emul-linux-x86-medialibs (preserved rebuilds)
-=app-emulation/emul-linux-x86-soundlibs-20140508-r1
