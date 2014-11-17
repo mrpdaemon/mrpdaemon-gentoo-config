@@ -140,3 +140,6 @@ x11-libs/gtk+ custom-cflags
 
 # infinality rendering for Java
 dev-java/icedtea infinality
+
+# nvidia-drivers gtk3 backend
+x11-drivers/nvidia-drivers gtk3
