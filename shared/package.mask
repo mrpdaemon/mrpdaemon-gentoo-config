@@ -6,3 +6,6 @@ sys-boot/grub:2
 
 # breaks Battle.net
 =app-emulation/wine-1.7.29
+
+# remmina-1.1.1 doesn't compile against
+>net-misc/freerdp-1.1.0
