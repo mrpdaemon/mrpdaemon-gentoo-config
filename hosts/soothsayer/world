@@ -60,7 +60,6 @@ net-im/corebird
 net-im/pidgin
 net-im/skype
 net-irc/irssi
-net-irc/polari
 net-irc/smuxi
 net-misc/dropbox
 net-misc/mosh
@@ -90,10 +89,9 @@ sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
-sys-fs/jmtpfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.16.6
-sys-kernel/gentoo-sources:3.17.3
+sys-kernel/gentoo-sources:3.17.4
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
@@ -112,7 +110,6 @@ x11-apps/xinput
 x11-misc/alacarte
 x11-misc/bumblebee
 x11-misc/driconf
-x11-misc/gwakeonlan
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
 x11-terms/terminator
