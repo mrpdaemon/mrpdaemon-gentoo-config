@@ -1,0 +1,44 @@
+From a7982b33db8661cb525de6b4e740c72409c34128 Mon Sep 17 00:00:00 2001
+From: Mark Pariente <markpariente@gmail.com>
+Date: Sun, 30 Nov 2014 12:40:18 -0800
+Subject: [PATCH] Fix synchronization deadlock in SpinWaiter.wait()
+
+The new implementation of g_cond_wait_until() in glib 2.42 uses futex on
+linux if available which results in a very tight window of time between
+acquiring the mutex and releasing it. In some systems this window of
+time is not sufficient for the SpinWaiter.notify() thread to ever
+acquire the mutex, leading to deadlocks where SpinWaiter.wait() keeps
+re-acquiring the mutex and endlessly trying cond.wait_until() even
+though the notify() thread is trying to signal the condition.
+
+The "fix" here is to intentionally release the mutex when calling into
+the PollService callback to give the notify() thread a chance to acquire
+the mutex.
+
+This addresses https://bugzilla.gnome.org/show_bug.cgi?id=737811 which
+is marked resolved/fixed which at least for my system wasn't fixed yet.
+---
+ src/engine/util/util-synchronization.vala | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/engine/util/util-synchronization.vala b/src/engine/util/util-synchronization.vala
+index 9416d12..5296b53 100644
+--- a/src/engine/util/util-synchronization.vala
++++ b/src/engine/util/util-synchronization.vala
+@@ -64,10 +64,13 @@ public class SpinWaiter : BaseObject {
+             int64 end_time = get_monotonic_time() + (actual_poll_msec * TimeSpan.MILLISECOND);
+             if (!cond.wait_until(mutex, end_time)) {
+                 // timeout passed, allow the callback to run
++                mutex.unlock();
+                 if (!cb()) {
+                     // PollService returned false, abort
++                    mutex.lock();
+                     break;
+                 }
++                mutex.lock();
+             }
+         }
+         
+-- 
+2.1.3
+

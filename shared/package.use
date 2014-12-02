@@ -143,3 +143,7 @@ dev-java/icedtea infinality
 
 # nvidia-drivers gtk3 backend
 x11-drivers/nvidia-drivers gtk3
+
+# GNOME 3.14
+media-libs/clutter egl
+x11-libs/vte:2.90 -glade

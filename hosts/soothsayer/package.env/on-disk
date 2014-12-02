@@ -1,2 +1,3 @@
 dev-java/icedtea no-tmpfs.conf
 app-office/libreoffice no-tmpfs.conf
+net-libs/webkit-gtk no-tmpfs.conf
