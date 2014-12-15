@@ -30,7 +30,6 @@ app-text/dos2unix
 dev-db/mariadb
 dev-java/icedtea
 dev-java/maven-bin
-dev-lang/go
 dev-libs/libcgroup
 dev-python/bpython
 dev-util/android-ndk
@@ -87,7 +86,6 @@ media-sound/spotify
 media-sound/vorbisgain
 media-tv/plex-media-server
 media-video/dvdbackup
-media-video/handbrake
 media-video/luvcview
 media-video/mediainfo
 media-video/mplayer
