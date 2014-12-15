@@ -147,3 +147,6 @@ x11-drivers/nvidia-drivers gtk3
 # GNOME 3.14
 media-libs/clutter egl
 x11-libs/vte:2.90 -glade
+
+# No kms support for nvidia-drivers
+x11-wm/mutter -kms
