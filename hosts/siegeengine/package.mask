@@ -1,3 +1,4 @@
 # Breaks stuff (softirq storm)
 =net-wireless/broadcom-sta-6.30.223.248
 =net-wireless/broadcom-sta-6.30.223.248-r1
+=net-wireless/broadcom-sta-6.30.223.248-r2
