@@ -1,0 +1,14 @@
+diff -Naur /root/nvidia.org/NVIDIA-Linux-x86_64-346.22/kernel/nv-drm.c ./kernel/nv-drm.c
+--- /root/nvidia.org/NVIDIA-Linux-x86_64-346.22/kernel/nv-drm.c	2014-12-02 18:57:15.000000000 +0100
++++ ./kernel/nv-drm.c	2014-12-30 10:31:48.860635696 +0100
+@@ -127,7 +127,9 @@
+     .gem_prime_get_sg_table = nv_gem_prime_get_sg_table,
+     .gem_prime_vmap = nv_gem_prime_vmap,
+     .gem_prime_vunmap = nv_gem_prime_vunmap,
+-
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3, 18, 0)
++    .set_busid = drm_pci_set_busid,
++#endif
+     .name = "nvidia-drm",
+     .desc = "NVIDIA DRM driver",
+     .date = "20130102",
