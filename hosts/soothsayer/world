@@ -91,7 +91,7 @@ sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.16.6
-sys-kernel/gentoo-sources:3.17.6
+sys-kernel/gentoo-sources:3.17.7
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
