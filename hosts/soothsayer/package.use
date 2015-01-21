@@ -8,4 +8,4 @@ media-sound/rhythmbox daap
 dev-java/icedtea-bin nsplugin
 
 # 32-bit library for virtualgl (optirun wine)
-x11-misc/virtualgl abi_x86_32
+#x11-misc/virtualgl abi_x86_32
