@@ -10,5 +10,6 @@ sys-boot/grub:2
 # breaks VPN connectivity
 =net-misc/networkmanager-vpnc-1.0.0
 
-# libgit2-glib-0.0.24 doesn't compile against
+# gitg 3.14.1 doesn't compile against
 =dev-libs/libgit2-0.22.0
+=dev-libs/libgit2-glib-0.22.0
