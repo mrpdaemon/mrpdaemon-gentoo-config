@@ -114,7 +114,6 @@ net-misc/mosh
 net-misc/netkit-telnetd
 net-misc/networkmanager-vpnc
 net-misc/ntp
-net-misc/remmina
 net-misc/youtube-dl
 net-p2p/deluge
 net-print/cups
@@ -148,7 +147,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.17.8
-sys-kernel/gentoo-sources:3.18.3
+sys-kernel/gentoo-sources:3.18.5
 sys-kernel/linux-firmware
 sys-process/htop
 sys-process/iotop
