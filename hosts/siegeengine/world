@@ -88,7 +88,7 @@ media-tv/plex-media-server
 media-video/dvdbackup
 media-video/luvcview
 media-video/mediainfo
-media-video/mplayer
+media-video/mplayer2
 media-video/pitivi
 media-video/simplescreenrecorder
 media-video/vobcopy
@@ -114,6 +114,7 @@ net-misc/mosh
 net-misc/netkit-telnetd
 net-misc/networkmanager-vpnc
 net-misc/ntp
+net-misc/remmina
 net-misc/youtube-dl
 net-p2p/deluge
 net-print/cups
