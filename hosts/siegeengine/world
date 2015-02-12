@@ -161,6 +161,7 @@ www-plugins/google-talkplugin
 www-servers/apache
 x11-apps/xev
 x11-drivers/nvidia-drivers
+x11-libs/libcryptui
 x11-libs/libva-vdpau-driver
 x11-libs/pangox-compat
 x11-misc/vdpauinfo
