@@ -164,7 +164,6 @@ x11-libs/libcryptui
 x11-libs/libva-vdpau-driver
 x11-libs/pangox-compat
 x11-misc/vdpauinfo
-x11-misc/virtualgl
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
 x11-terms/terminator
