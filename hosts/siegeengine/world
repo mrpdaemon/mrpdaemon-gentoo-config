@@ -147,12 +147,12 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:3.17.8
-sys-kernel/gentoo-sources:3.18.7
+sys-kernel/gentoo-sources:3.18.8
 sys-kernel/linux-firmware
+sys-process/fcron
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-sys-process/vixie-cron
 www-client/chromium
 www-client/firefox
 www-plugins/chrome-binary-plugins
