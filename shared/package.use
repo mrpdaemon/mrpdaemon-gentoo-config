@@ -150,3 +150,9 @@ x11-libs/vte:2.90 -glade
 
 # No kms support for nvidia-drivers
 x11-wm/mutter -kms
+
+# Python 3.4 for gnome-music
+media-sound/gnome-music -python_single_target_python3_3 python_single_target_python3_4
+
+# Wine staging for pipelight
+app-emulation/wine staging

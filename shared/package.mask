@@ -4,8 +4,5 @@ sys-boot/grub:2
 # new keepass doesn't work with old databases
 >=app-admin/keepassx-2.0_alpha5
 
-# breaks Battle.net
->=app-emulation/wine-1.7.29
-
 # breaks VPN connectivity
 =net-misc/networkmanager-vpnc-1.0.0
