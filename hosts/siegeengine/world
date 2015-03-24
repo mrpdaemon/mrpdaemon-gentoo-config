@@ -123,6 +123,7 @@ net-wireless/broadcom-sta
 net-wireless/iw
 net-wireless/rfkill
 net-wireless/wavemon
+net-wireless/wireless-tools
 sci-geosciences/gnome-maps
 sys-apps/dmidecode
 sys-apps/ethtool
