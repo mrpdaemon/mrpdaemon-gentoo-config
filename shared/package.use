@@ -156,3 +156,6 @@ media-sound/gnome-music -python_single_target_python3_3 python_single_target_pyt
 
 # Wine staging for pipelight
 app-emulation/wine staging
+
+# Turkish dictionary for aspell
+app-text/aspell linguas_tr
