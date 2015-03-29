@@ -1,0 +1,12 @@
+diff -u vmblock-only.orig/linux/file.c vmblock-only/linux/file.c
+--- vmblock-only.orig/linux/file.c	2015-02-11 12:18:29.000000000 -0500
++++ vmblock-only/linux/file.c	2015-02-11 12:41:41.000000000 -0500
+@@ -92,7 +92,7 @@
+     * and that would try to acquire the inode's semaphore; if the two inodes
+     * are the same we'll deadlock.
+     */
+-   if (actualFile->f_dentry && inode == actualFile->f_dentry->d_inode) {
++   if (actualFile->f_path.dentry && inode == actualFile->f_path.dentry->d_inode) {
+       Warning("FileOpOpen: identical inode encountered, open cannot succeed.\n");
+       if (filp_close(actualFile, current->files) < 0) {
+          Warning("FileOpOpen: unable to close opened file.\n");

@@ -8,7 +8,6 @@ app-doc/doxygen
 app-editors/ghex
 app-editors/vim
 app-emulation/vmware-modules
-app-emulation/vmware-view
 app-emulation/vmware-workstation
 app-emulation/wine
 app-emulation/winetricks
@@ -147,8 +146,8 @@ sys-fs/fuse-exfat
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.17.8
 sys-kernel/gentoo-sources:3.18.9
+sys-kernel/gentoo-sources:3.19.3
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
