@@ -8,6 +8,7 @@ app-doc/doxygen
 app-editors/ghex
 app-editors/vim
 app-emulation/vmware-modules
+app-emulation/vmware-view
 app-emulation/vmware-workstation
 app-emulation/wine
 app-emulation/winetricks
