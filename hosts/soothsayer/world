@@ -3,7 +3,6 @@ app-benchmarks/i7z
 app-editors/ghex
 app-editors/vim
 app-emulation/vmware-modules
-app-emulation/vmware-view
 app-emulation/vmware-workstation
 app-emulation/wine
 app-emulation/winetricks
@@ -21,7 +20,6 @@ app-text/acroread
 dev-java/icedtea
 dev-java/maven-bin
 dev-util/android-ndk
-dev-util/android-sdk-update-manager
 dev-util/anjuta
 dev-util/devhelp
 dev-util/meld
@@ -45,7 +43,6 @@ media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/shotwell
-media-plugins/gst-plugins-vaapi
 media-sound/google-musicmanager
 media-sound/pavucontrol
 media-sound/rhythmbox
