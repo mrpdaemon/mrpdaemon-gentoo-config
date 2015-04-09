@@ -104,6 +104,7 @@ net-ftp/proftpd
 net-im/corebird
 net-im/pidgin
 net-im/skype
+net-im/telegram-bin
 net-irc/smuxi
 net-libs/nodejs
 net-misc/bridge-utils
