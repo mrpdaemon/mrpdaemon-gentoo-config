@@ -6,3 +6,6 @@ sys-boot/grub:2
 
 # breaks VPN connectivity
 =net-misc/networkmanager-vpnc-1.0.0
+
+# breaks SC2 battle.net
+=app-emulation/wine-1.7.40
