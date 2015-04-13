@@ -56,6 +56,7 @@ net-fs/nfs-utils
 net-im/corebird
 net-im/pidgin
 net-im/skype
+net-im/telegram-bin
 net-irc/irssi
 net-irc/smuxi
 net-misc/dropbox
