@@ -6,3 +6,7 @@ sys-boot/grub:2
 
 # breaks VPN connectivity
 =net-misc/networkmanager-vpnc-1.0.0
+
+# Don't want Oracle stuff
+virtual/jdk:1.8
+virtual/jre:1.8
