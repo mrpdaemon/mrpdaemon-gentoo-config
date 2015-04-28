@@ -134,4 +134,6 @@ media-libs/libtheora abi_x86_32
 dev-libs/libgusb abi_x86_32
 app-accessibility/at-spi2-core abi_x86_32
 x11-misc/colord abi_x86_32
+dev-libs/libcroco abi_x86_32
+gnome-base/librsvg abi_x86_32
 
