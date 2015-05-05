@@ -89,6 +89,7 @@ sys-fs/encfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.18.9
 sys-kernel/gentoo-sources:3.19.3
+sys-kernel/gentoo-sources:4.0.1
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
