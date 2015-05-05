@@ -148,8 +148,8 @@ sys-fs/fuse-exfat
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.18.9
 sys-kernel/gentoo-sources:3.19.3
+sys-kernel/gentoo-sources:4.0.1
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
