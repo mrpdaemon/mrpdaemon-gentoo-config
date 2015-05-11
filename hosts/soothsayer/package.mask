@@ -1,2 +1,0 @@
-# can't pull in multilib
->=app-emulation/wine-1.7.29
