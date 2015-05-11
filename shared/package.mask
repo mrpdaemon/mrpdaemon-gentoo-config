@@ -10,3 +10,7 @@ sys-boot/grub:2
 # Don't want Oracle stuff
 virtual/jdk:1.8
 virtual/jre:1.8
+
+# Font rendering broken
+=www-client/chromium-43.0.2357.45
+=www-client/chromium-43.0.2357.52
