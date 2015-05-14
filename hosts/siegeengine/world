@@ -30,6 +30,7 @@ app-text/dos2unix
 dev-db/mariadb
 dev-java/icedtea
 dev-java/maven-bin
+dev-lang/go
 dev-libs/libcgroup
 dev-python/bpython
 dev-util/android-ndk
@@ -38,6 +39,7 @@ dev-util/anjuta
 dev-util/devhelp
 dev-util/meld
 dev-util/strace
+dev-util/valgrind
 dev-vcs/bzr
 dev-vcs/git
 dev-vcs/gitg
