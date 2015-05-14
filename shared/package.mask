@@ -14,3 +14,4 @@ virtual/jre:1.8
 # Font rendering broken
 =www-client/chromium-43.0.2357.45
 =www-client/chromium-43.0.2357.52
+=dev-libs/jsoncpp-1.6.2
