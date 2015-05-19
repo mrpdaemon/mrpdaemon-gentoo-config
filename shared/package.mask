@@ -4,9 +4,6 @@ sys-boot/grub:2
 # new keepass doesn't work with old databases
 >=app-admin/keepassx-2.0_alpha5
 
-# breaks VPN connectivity
-=net-misc/networkmanager-vpnc-1.0.0
-
 # Don't want Oracle stuff
 virtual/jdk:1.8
 virtual/jre:1.8
@@ -14,4 +11,5 @@ virtual/jre:1.8
 # Font rendering broken
 =www-client/chromium-43.0.2357.45
 =www-client/chromium-43.0.2357.52
+=www-client/chromium-43.0.2357.65
 =dev-libs/jsoncpp-1.6.2
