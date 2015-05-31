@@ -12,4 +12,6 @@ virtual/jre:1.8
 =www-client/chromium-43.0.2357.45
 =www-client/chromium-43.0.2357.52
 =www-client/chromium-43.0.2357.65
+=www-client/chromium-43.0.2357.73
 =dev-libs/jsoncpp-1.6.2
+=dev-libs/jsoncpp-1.6.2-r1
