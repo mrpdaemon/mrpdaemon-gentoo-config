@@ -64,6 +64,7 @@ media-fonts/terminus-font
 media-fonts/ttf-bitstream-vera
 media-fonts/ubuntu-font-family
 media-gfx/argyllcms
+media-gfx/blender
 media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/gphoto2
@@ -90,7 +91,6 @@ media-video/dvdbackup
 media-video/luvcview
 media-video/mediainfo
 media-video/mplayer
-media-video/pitivi
 media-video/simplescreenrecorder
 media-video/vobcopy
 media-video/x264-encoder
