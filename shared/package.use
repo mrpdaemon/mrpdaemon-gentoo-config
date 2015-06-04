@@ -159,3 +159,6 @@ app-emulation/wine staging
 
 # Turkish dictionary for aspell
 app-text/aspell linguas_tr
+
+# Apache seems to need this
+www-servers/apache apache2_mpms_prefork
