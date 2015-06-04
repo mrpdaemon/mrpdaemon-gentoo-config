@@ -161,4 +161,4 @@ app-emulation/wine staging
 app-text/aspell linguas_tr
 
 # Apache seems to need this
-www-servers/apache apache2_mpms_prefork
+www-servers/apache apache2_mpms_prefork -threads
