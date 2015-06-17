@@ -162,3 +162,7 @@ app-text/aspell linguas_tr
 
 # Apache seems to need this
 www-servers/apache apache2_mpms_prefork -threads
+
+# new gitg needs it
+dev-libs/libgit2-glib ssh
+dev-libs/libgit2 ssh

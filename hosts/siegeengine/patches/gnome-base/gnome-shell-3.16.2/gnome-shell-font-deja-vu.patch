@@ -1,0 +1,11 @@
+--- a/data/theme/gnome-shell.css	2015-06-13 16:39:43.192941572 -0700
++++ b/data/theme/gnome-shell.css	2015-06-13 16:40:06.728941090 -0700
+@@ -19,7 +19,7 @@
+  */
+ /* GLOBALS */
+ stage {
+-  font-family: Cantarell, Sans-Serif;
++  font-family: Deja-Vu, Sans-Serif;
+   font-size: 11pt;
+   color: #eeeeec; }
+ 
