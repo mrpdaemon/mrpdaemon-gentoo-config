@@ -20,6 +20,7 @@ app-shells/gentoo-bashcomp
 app-text/acroread
 dev-java/icedtea
 dev-java/maven-bin
+dev-python/git-review
 dev-util/android-ndk
 dev-util/anjuta
 dev-util/devhelp
@@ -59,6 +60,7 @@ net-im/skype
 net-im/telegram-bin
 net-irc/irssi
 net-irc/smuxi
+net-libs/nodejs
 net-misc/dropbox
 net-misc/mosh
 net-misc/networkmanager-vpnc
@@ -88,7 +90,7 @@ sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:3.19.3
-sys-kernel/gentoo-sources:4.0.4
+sys-kernel/gentoo-sources:4.0.5
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
