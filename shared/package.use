@@ -166,3 +166,6 @@ www-servers/apache apache2_mpms_prefork -threads
 # new gitg needs it
 dev-libs/libgit2-glib ssh
 dev-libs/libgit2 ssh
+
+# chromium needs it
+media-libs/libvpx postproc
