@@ -173,3 +173,15 @@ media-libs/libvpx postproc
 dev-libs/libpcre pcre16
 dev-qt/qtcore icu
 
+# ruby 2.2 update
+virtual/rubygems ruby_targets_ruby22
+dev-ruby/test-unit ruby_targets_ruby22
+dev-ruby/power_assert ruby_targets_ruby22
+dev-ruby/rubygems ruby_targets_ruby22
+dev-ruby/json ruby_targets_ruby22
+dev-libs/libgudev abi_x86_32
+dev-ruby/rake ruby_targets_ruby22
+dev-ruby/racc ruby_targets_ruby22
+dev-ruby/rdoc ruby_targets_ruby22
+dev-ruby/minitest ruby_targets_ruby22
+
