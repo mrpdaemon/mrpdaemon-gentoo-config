@@ -150,4 +150,4 @@ media-libs/audiofile abi_x86_32
 media-libs/xvid abi_x86_32
 media-libs/libbluray abi_x86_32
 media-libs/libepoxy abi_x86_32
-
+sys-libs/binutils-libs abi_x86_32

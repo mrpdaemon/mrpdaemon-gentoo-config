@@ -150,7 +150,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:4.0.9
-sys-kernel/gentoo-sources:4.1.4
+sys-kernel/gentoo-sources:4.1.7
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
