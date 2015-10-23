@@ -5,7 +5,8 @@
  /* GLOBALS */
  stage {
 -  font-family: Cantarell, Sans-Serif;
+-  font-size: 11pt;
 +  font-family: Deja-Vu, Sans-Serif;
-   font-size: 11pt;
++  font-size: 10pt;
    color: #eeeeec; }
  

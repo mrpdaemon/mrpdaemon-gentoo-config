@@ -48,6 +48,7 @@ gnome-base/gnome
 gnome-extra/california
 gnome-extra/evolution-ews
 gnome-extra/gnome-boxes
+gnome-extra/gnome-builder
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
 gnome-extra/gnome-getting-started-docs
@@ -149,8 +150,8 @@ sys-fs/fuse-exfat
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.0.9
-sys-kernel/gentoo-sources:4.1.7
+sys-kernel/gentoo-sources:4.1.9-r1
+sys-kernel/gentoo-sources:4.2.3
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
