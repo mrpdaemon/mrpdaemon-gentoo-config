@@ -185,3 +185,8 @@ dev-ruby/racc ruby_targets_ruby22
 dev-ruby/rdoc ruby_targets_ruby22
 dev-ruby/minitest ruby_targets_ruby22
 
+# gnome-builder
+sys-devel/llvm clang
+
+# newest chrome
+media-video/ffmpeg opus

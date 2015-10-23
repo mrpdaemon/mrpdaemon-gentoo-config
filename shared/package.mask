@@ -9,6 +9,3 @@ virtual/jdk:1.8
 virtual/jre:1.8
 # New maven needs Oracle JDK
 >=dev-java/maven-bin-3.3
-
-# temporary to resolve boost upgrade
-dev-libs/liborcus:0/0.10
