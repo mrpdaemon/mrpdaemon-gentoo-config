@@ -43,7 +43,6 @@ media-fonts/terminus-font
 media-gfx/argyllcms
 media-gfx/dispcalgui
 media-gfx/gimp
-media-gfx/inkscape
 media-gfx/shotwell
 media-sound/google-musicmanager
 media-sound/pavucontrol
@@ -110,7 +109,6 @@ x11-misc/bumblebee
 x11-misc/driconf
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
-x11-terms/terminator
 x11-themes/faenza-icon-theme
 x11-themes/gentoo-artwork
 x11-themes/gnome-icon-theme-extras
