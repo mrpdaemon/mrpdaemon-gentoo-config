@@ -70,7 +70,6 @@ media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/gphoto2
 media-gfx/gthumb
-media-gfx/inkscape
 media-gfx/shotwell
 media-plugins/frei0r-plugins
 media-plugins/gst-plugins-libav
@@ -170,7 +169,6 @@ x11-libs/pangox-compat
 x11-misc/vdpauinfo
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
-x11-terms/terminator
 x11-themes/faenza-icon-theme
 x11-themes/gentoo-artwork
 x11-themes/gnome-icon-theme-extras
