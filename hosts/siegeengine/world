@@ -141,6 +141,7 @@ sys-boot/grub
 sys-boot/grub:0
 sys-devel/distcc
 sys-devel/gcc:4.8
+sys-devel/gcc:4.9
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/encfs
@@ -150,7 +151,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:4.1.9-r1
-sys-kernel/gentoo-sources:4.2.7
+sys-kernel/gentoo-sources:4.2.8
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
