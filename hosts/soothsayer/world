@@ -82,13 +82,14 @@ sys-boot/grub:0
 sys-devel/distcc
 sys-devel/gcc
 sys-devel/gcc:4.8
+sys-devel/gcc:4.9
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:4.1.9-r1
-sys-kernel/gentoo-sources:4.2.6
+sys-kernel/gentoo-sources:4.2.8
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
