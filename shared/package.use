@@ -192,3 +192,9 @@ sys-devel/llvm clang
 
 # newest chrome
 media-video/ffmpeg opus
+
+# netflix in chrome
+www-client/chromium widevine
+
+# gcc 5.3 skype breakage workaround
+dev-qt/qtwebkit -exceptions

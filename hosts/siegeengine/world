@@ -12,12 +12,10 @@ app-emulation/vmware-view
 app-emulation/vmware-workstation
 app-emulation/wine
 app-emulation/winetricks
-app-misc/bijiben
 app-misc/screen
 app-misc/solaar
 app-office/libreoffice
 app-portage/eix
-app-portage/euscan
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
@@ -40,7 +38,6 @@ dev-util/devhelp
 dev-util/meld
 dev-util/strace
 dev-util/valgrind
-dev-vcs/bzr
 dev-vcs/git
 dev-vcs/gitg
 games-util/steam-meta
@@ -107,10 +104,8 @@ net-im/corebird
 net-im/pidgin
 net-im/skype
 net-im/telegram-bin
-net-irc/smuxi
 net-libs/nodejs
 net-misc/bridge-utils
-net-misc/clamz
 net-misc/dropbox
 net-misc/mosh
 net-misc/netkit-telnetd
@@ -135,7 +130,6 @@ sys-apps/hdparm
 sys-apps/less
 sys-apps/lm_sensors
 sys-apps/microcode-ctl
-sys-apps/pv
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/grub:0
@@ -164,9 +158,7 @@ www-plugins/google-talkplugin
 www-servers/apache
 x11-apps/xev
 x11-drivers/nvidia-drivers
-x11-libs/libcryptui
 x11-libs/libva-vdpau-driver
-x11-libs/pangox-compat
 x11-misc/vdpauinfo
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
