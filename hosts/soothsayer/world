@@ -58,7 +58,6 @@ net-im/pidgin
 net-im/skype
 net-im/telegram-bin
 net-irc/irssi
-net-irc/smuxi
 net-libs/nodejs
 net-misc/dropbox
 net-misc/mosh
@@ -89,7 +88,7 @@ sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:4.1.9-r1
-sys-kernel/gentoo-sources:4.3.3
+sys-kernel/gentoo-sources:4.3.4
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
