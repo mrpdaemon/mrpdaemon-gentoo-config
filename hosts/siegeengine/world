@@ -101,7 +101,6 @@ net-fs/nfs-utils
 net-ftp/ftp
 net-ftp/proftpd
 net-im/corebird
-net-im/pidgin
 net-im/skype
 net-im/telegram-bin
 net-libs/nodejs
@@ -145,7 +144,7 @@ sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:4.2.8
-sys-kernel/gentoo-sources:4.3.3
+sys-kernel/gentoo-sources:4.3.4
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
@@ -161,7 +160,6 @@ x11-drivers/nvidia-drivers
 x11-libs/libva-vdpau-driver
 x11-misc/vdpauinfo
 x11-misc/xsensors
-x11-plugins/pidgin-sipe
 x11-themes/faenza-icon-theme
 x11-themes/gentoo-artwork
 x11-themes/gnome-icon-theme-extras
