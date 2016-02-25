@@ -48,13 +48,12 @@ media-sound/google-musicmanager
 media-sound/pavucontrol
 media-sound/rhythmbox
 media-sound/spotify
-media-video/mplayer
+media-video/mpv
 net-analyzer/nmap
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-fs/nfs-utils
 net-im/corebird
-net-im/pidgin
 net-im/skype
 net-im/telegram-bin
 net-irc/irssi
@@ -75,6 +74,7 @@ sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 sys-apps/microcode-ctl
 sys-apps/mlocate
+sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-auth/pam_mount
 sys-boot/grub:0
@@ -88,7 +88,8 @@ sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
 sys-kernel/gentoo-sources:4.1.9-r1
-sys-kernel/gentoo-sources:4.3.4
+sys-kernel/gentoo-sources:4.3.5
+sys-kernel/gentoo-sources:4.3.6
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
