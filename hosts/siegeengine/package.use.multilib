@@ -153,3 +153,4 @@ media-libs/libepoxy abi_x86_32
 sys-libs/binutils-libs abi_x86_32
 media-libs/opus abi_x86_32
 app-crypt/p11-kit abi_x86_32
+net-nds/openldap abi_x86_32

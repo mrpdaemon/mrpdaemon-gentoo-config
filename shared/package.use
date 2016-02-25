@@ -198,3 +198,9 @@ www-client/chromium widevine
 
 # gcc 5.3 skype breakage workaround
 dev-qt/qtwebkit -exceptions
+
+# vmware-workstation doesn't work against gcc 5.3 libraries
+app-emulation/vmware-workstation bundled-libs
+
+# python 3.4 for libreoffice
+app-office/libreoffice python_single_target_python3_4
