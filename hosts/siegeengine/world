@@ -42,7 +42,6 @@ dev-vcs/git
 dev-vcs/gitg
 games-util/steam-meta
 gnome-base/gnome
-gnome-extra/california
 gnome-extra/evolution-ews
 gnome-extra/gnome-boxes
 gnome-extra/gnome-builder
@@ -52,7 +51,6 @@ gnome-extra/gnome-getting-started-docs
 gnome-extra/gnome-weather
 gnome-extra/gtkparasite
 gnome-extra/nautilus-dropbox
-mail-client/geary
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
@@ -126,6 +124,7 @@ sys-apps/dmidecode
 sys-apps/ethtool
 sys-apps/gnome-disk-utility
 sys-apps/hdparm
+sys-apps/iucode_tool
 sys-apps/less
 sys-apps/lm_sensors
 sys-apps/microcode-ctl
@@ -144,8 +143,8 @@ sys-fs/fuse-exfat
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.2.8
 sys-kernel/gentoo-sources:4.3.6
+sys-kernel/gentoo-sources:4.4.4
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
