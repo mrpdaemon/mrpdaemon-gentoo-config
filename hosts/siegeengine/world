@@ -54,6 +54,7 @@ gnome-extra/nautilus-dropbox
 media-fonts/corefonts
 media-fonts/droid
 media-fonts/freefonts
+media-fonts/infinality-ultimate-meta
 media-fonts/roboto
 media-fonts/source-pro
 media-fonts/terminus-font
@@ -66,6 +67,7 @@ media-gfx/gimp
 media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/shotwell
+media-libs/fontconfig-ultimate
 media-plugins/frei0r-plugins
 media-plugins/gst-plugins-libav
 media-plugins/gst-plugins-vaapi

@@ -11,4 +11,4 @@ virtual/jre:1.8
 >=dev-java/maven-bin-3.3
 
 # libgit2-glib doesn't compile against it
-=dev-libs/libgit2-0.24.0
+#=dev-libs/libgit2-0.24.0
