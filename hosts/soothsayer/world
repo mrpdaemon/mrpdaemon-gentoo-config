@@ -39,11 +39,14 @@ gnome-extra/nautilus-dropbox
 mail-client/geary
 media-fonts/corefonts
 media-fonts/droid
+media-fonts/infinality-ultimate-meta
+media-fonts/roboto
 media-fonts/terminus-font
 media-gfx/argyllcms
 media-gfx/dispcalgui
 media-gfx/gimp
 media-gfx/shotwell
+media-libs/fontconfig-ultimate
 media-sound/google-musicmanager
 media-sound/pavucontrol
 media-sound/rhythmbox
@@ -72,6 +75,7 @@ net-wireless/wavemon
 net-wireless/wpa_supplicant
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
+sys-apps/iucode_tool
 sys-apps/microcode-ctl
 sys-apps/mlocate
 sys-apps/the_silver_searcher
@@ -87,8 +91,8 @@ sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
-sys-kernel/gentoo-sources:4.1.9-r1
 sys-kernel/gentoo-sources:4.3.6
+sys-kernel/gentoo-sources:4.4.4
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
