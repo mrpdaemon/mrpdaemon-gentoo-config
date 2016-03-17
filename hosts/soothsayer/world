@@ -21,6 +21,7 @@ app-text/acroread
 dev-java/icedtea
 dev-java/maven-bin
 dev-python/git-review
+dev-python/pygpgme
 dev-util/android-ndk
 dev-util/anjuta
 dev-util/devhelp
