@@ -204,3 +204,6 @@ app-emulation/vmware-workstation bundled-libs
 
 # python 3.4 for libreoffice
 app-office/libreoffice python_single_target_python3_4
+
+# breaks deluge otherwise
+net-libs/rb_libtorrent -python_targets_python3_4

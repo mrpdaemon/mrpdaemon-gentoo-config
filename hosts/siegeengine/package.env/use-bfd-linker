@@ -4,4 +4,5 @@ sys-fs/ntfs3g use-bfd-linker.conf
 dev-db/mariadb use-bfd-linker.conf
 dev-libs/openssl use-bfd-linker.conf
 sys-fs/fuse use-bfd-linker.conf
-sys-devel/gcc:4.8 use-bfd-linker.conf
+# slotmove sys-devel/gcc 4.8 4.8.5
+sys-devel/gcc:4.8.5 use-bfd-linker.conf

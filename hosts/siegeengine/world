@@ -31,6 +31,7 @@ dev-java/maven-bin
 dev-lang/go
 dev-libs/libcgroup
 dev-python/bpython
+dev-python/pygpgme
 dev-util/android-ndk
 dev-util/android-sdk-update-manager
 dev-util/anjuta
@@ -135,8 +136,8 @@ sys-apps/usbutils
 sys-boot/grub
 sys-boot/grub:0
 sys-devel/distcc
-sys-devel/gcc:4.8
-sys-devel/gcc:4.9
+sys-devel/gcc:4.8.5
+sys-devel/gcc:4.9.3
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/encfs
@@ -147,6 +148,7 @@ sys-fs/ntfs3g
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:4.3.6
 sys-kernel/gentoo-sources:4.4.4
+sys-kernel/gentoo-sources:4.4.5
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
