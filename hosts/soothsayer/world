@@ -85,8 +85,8 @@ sys-auth/pam_mount
 sys-boot/grub:0
 sys-devel/distcc
 sys-devel/gcc
-sys-devel/gcc:4.8
-sys-devel/gcc:4.9
+sys-devel/gcc:4.8.5
+sys-devel/gcc:4.9.3
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/ecryptfs-utils
