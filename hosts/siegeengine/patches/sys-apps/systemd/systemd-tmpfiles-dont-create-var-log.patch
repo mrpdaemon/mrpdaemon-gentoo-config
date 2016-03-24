@@ -1,0 +1,13 @@
+diff -u systemd-229-orig/tmpfiles.d/var.conf systemd-229/tmpfiles.d/var.conf
+--- systemd-229-orig/tmpfiles.d/var.conf	2016-03-23 22:22:13.765914576 -0700
++++ systemd-229/tmpfiles.d/var.conf	2016-03-23 22:22:40.945878141 -0700
+@@ -11,7 +11,8 @@
+ 
+ L /var/run - - - - ../run
+ 
+-d /var/log 0755 - - -
++# /var/log is a symlink in my setup
++#d /var/log 0755 - - -
+ f /var/log/wtmp 0664 root utmp -
+ f /var/log/btmp 0600 root utmp -
+ 
