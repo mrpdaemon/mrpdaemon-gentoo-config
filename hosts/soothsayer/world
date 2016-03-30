@@ -66,6 +66,7 @@ net-misc/dropbox
 net-misc/mosh
 net-misc/networkmanager-vpnc
 net-misc/ntp
+net-misc/remmina
 net-p2p/deluge
 net-print/cups
 net-print/cupswrapper-brother-hl2270dw
@@ -92,8 +93,8 @@ sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
-sys-kernel/gentoo-sources:4.3.6
 sys-kernel/gentoo-sources:4.4.4
+sys-kernel/gentoo-sources:4.4.6
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
