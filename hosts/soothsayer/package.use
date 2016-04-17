@@ -9,3 +9,6 @@ dev-java/icedtea-bin nsplugin
 
 # 32-bit library for virtualgl (optirun wine)
 x11-misc/virtualgl abi_x86_32
+
+# libreoffice without bluetooth for using packages
+app-office/libreoffice -bluetooth

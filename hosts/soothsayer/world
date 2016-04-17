@@ -105,9 +105,8 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
-www-client/chromium
 www-client/firefox
-www-plugins/chrome-binary-plugins
+www-client/google-chrome-beta
 www-plugins/google-talkplugin
 x11-apps/xinput
 x11-misc/alacarte
