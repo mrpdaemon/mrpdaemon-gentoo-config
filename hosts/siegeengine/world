@@ -87,7 +87,6 @@ media-sound/vorbisgain
 media-tv/plex-media-server
 media-video/dvdbackup
 media-video/luvcview
-media-video/mediainfo
 media-video/mpv
 media-video/simplescreenrecorder
 media-video/vobcopy
@@ -146,16 +145,15 @@ sys-fs/fuse-exfat
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.3.6
 sys-kernel/gentoo-sources:4.4.6
+sys-kernel/gentoo-sources:4.4.7
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-www-client/chromium
 www-client/firefox
-www-plugins/chrome-binary-plugins
+www-client/google-chrome-beta
 www-plugins/google-talkplugin
 www-servers/apache
 x11-apps/xev

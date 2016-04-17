@@ -24,8 +24,9 @@ fi
 
 GV="2.44"
 MV="4.6.0"
+[[ ${MAJOR_V} == "1.8" ]] && SUFFIX="-unofficial"
 STAGING_P="wine-staging-${PV}"
-STAGING_DIR="${WORKDIR}/${STAGING_P}"
+STAGING_DIR="${WORKDIR}/${STAGING_P}${SUFFIX}"
 WINE_GENTOO="wine-gentoo-2015.03.07"
 DESCRIPTION="Free implementation of Windows(tm) on Unix"
 HOMEPAGE="http://www.winehq.org/"
@@ -41,7 +42,7 @@ if [[ ${PV} == "9999" ]] ; then
 	STAGING_EGIT_REPO_URI="git://github.com/wine-compholio/wine-staging.git"
 else
 	SRC_URI="${SRC_URI}
-	staging? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${STAGING_P}.tar.gz )"
+	staging? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}${SUFFIX}.tar.gz -> ${STAGING_P}.tar.gz )"
 fi
 
 LICENSE="LGPL-2.1"
@@ -188,6 +189,10 @@ wine_build_environment_check() {
 	fi
 }
 
+pkg_pretend() {
+	wine_build_environment_check || die
+}
+
 pkg_setup() {
 	wine_build_environment_check || die
 }
@@ -237,9 +242,6 @@ src_prepare() {
 		local STAGING_EXCLUDE=""
 		use pipelight || STAGING_EXCLUDE="${STAGING_EXCLUDE} -W Pipelight"
 
-		#577198 1.9.5 only
-		STAGING_EXCLUDE="${STAGING_EXCLUDE} -W makefiles-Disabled_Rules"
-
 		# Launch wine-staging patcher in a subshell, using epatch as a backend, and gitapply.sh as a backend for binary patches
 		ebegin "Running Wine-Staging patch installer"
 		(
@@ -248,7 +250,13 @@ src_prepare() {
 			source "${STAGING_DIR}/patches/patchinstall.sh"
 		)
 		eend $?
+
+		# To differentiate unofficial staging releases
+		if [[ ! -z ${SUFFIX} ]]; then
+			sed -i "s/(Staging)/(Staging [Unofficial])/" libs/wine/Makefile.in || die
+		fi
 	fi
+
 	autotools-utils_src_prepare
 
 	# Modification of the server protocol requires regenerating the server requests
