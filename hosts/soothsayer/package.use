@@ -12,3 +12,6 @@ x11-misc/virtualgl abi_x86_32
 
 # libreoffice without bluetooth for using packages
 app-office/libreoffice -bluetooth
+
+# nvidia without modeset mess (bumblebee can't unload otherwise)
+x11-drivers/nvidia-drivers -kms
