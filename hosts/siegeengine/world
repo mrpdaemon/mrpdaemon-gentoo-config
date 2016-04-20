@@ -30,6 +30,7 @@ dev-java/icedtea
 dev-java/maven-bin
 dev-lang/go
 dev-libs/libcgroup
+dev-python/beautifulsoup:python-2
 dev-python/bpython
 dev-python/pygpgme
 dev-util/android-ndk
