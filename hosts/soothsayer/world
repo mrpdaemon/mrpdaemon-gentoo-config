@@ -3,7 +3,6 @@ app-benchmarks/i7z
 app-editors/ghex
 app-editors/vim
 app-emulation/vmware-modules
-app-emulation/vmware-view
 app-emulation/vmware-workstation
 app-emulation/wine
 app-emulation/winetricks
@@ -20,6 +19,7 @@ app-shells/gentoo-bashcomp
 app-text/acroread
 dev-java/icedtea
 dev-java/maven-bin
+dev-python/beautifulsoup:python-2
 dev-python/git-review
 dev-python/pygpgme
 dev-util/android-ndk
