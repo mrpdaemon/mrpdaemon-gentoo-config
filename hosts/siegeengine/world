@@ -43,6 +43,7 @@ dev-vcs/git
 dev-vcs/gitg
 games-util/steam-meta
 gnome-base/gnome
+gnome-extra/chrome-gnome-shell
 gnome-extra/evolution-ews
 gnome-extra/gnome-boxes
 gnome-extra/gnome-builder
@@ -63,7 +64,7 @@ media-fonts/ttf-bitstream-vera
 media-fonts/ubuntu-font-family
 media-gfx/argyllcms
 media-gfx/blender
-media-gfx/dispcalgui
+media-gfx/displaycal
 media-gfx/gimp
 media-gfx/gphoto2
 media-gfx/gthumb
@@ -135,7 +136,6 @@ sys-apps/usbutils
 sys-boot/grub
 sys-boot/grub:0
 sys-devel/distcc
-sys-devel/gcc:4.8.5
 sys-devel/gcc:4.9.3
 sys-devel/gdb
 sys-fs/dosfstools
@@ -145,8 +145,8 @@ sys-fs/fuse-exfat
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.4.7
 sys-kernel/gentoo-sources:4.4.8
+sys-kernel/gentoo-sources:4.5.4
 sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
@@ -161,6 +161,7 @@ x11-drivers/nvidia-drivers
 x11-libs/libva-vdpau-driver
 x11-misc/vdpauinfo
 x11-misc/xsensors
+x11-terms/terminix-bin
 x11-themes/faenza-icon-theme
 x11-themes/gentoo-artwork
 x11-themes/gnome-icon-theme-extras

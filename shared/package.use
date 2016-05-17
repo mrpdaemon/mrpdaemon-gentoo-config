@@ -216,3 +216,6 @@ app-portage/layman sync-plugin-portage
 
 # YouCompleteMe needs this
 sys-libs/ncurses tinfo
+
+# Multiple GCC versions
+sys-devel/gcc multislot
