@@ -30,6 +30,7 @@ dev-vcs/git
 dev-vcs/gitg
 gnome-base/gnome
 gnome-extra/california
+gnome-extra/chrome-gnome-shell
 gnome-extra/evolution-ews
 gnome-extra/gnome-clocks
 gnome-extra/gnome-encfs
@@ -115,6 +116,7 @@ x11-misc/bumblebee
 x11-misc/driconf
 x11-misc/xsensors
 x11-plugins/pidgin-sipe
+x11-terms/terminix-bin
 x11-themes/faenza-icon-theme
 x11-themes/gentoo-artwork
 x11-themes/gnome-icon-theme-extras
