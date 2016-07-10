@@ -45,7 +45,7 @@ media-fonts/infinality-ultimate-meta
 media-fonts/roboto
 media-fonts/terminus-font
 media-gfx/argyllcms
-media-gfx/dispcalgui
+media-gfx/displaycal
 media-gfx/gimp
 media-gfx/shotwell
 media-libs/fontconfig-ultimate
@@ -87,15 +87,14 @@ sys-auth/pam_mount
 sys-boot/grub:0
 sys-devel/distcc
 sys-devel/gcc
-sys-devel/gcc:4.8.5
 sys-devel/gcc:4.9.3
 sys-devel/gdb
 sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
-sys-kernel/gentoo-sources:4.4.7
-sys-kernel/gentoo-sources:4.4.8
+sys-kernel/gentoo-sources:4.5.7
+sys-kernel/gentoo-sources:4.6.3
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
@@ -107,7 +106,7 @@ sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/firefox
-www-client/google-chrome-beta
+www-client/google-chrome
 www-plugins/google-talkplugin
 x11-apps/xinput
 x11-drivers/nvidia-drivers

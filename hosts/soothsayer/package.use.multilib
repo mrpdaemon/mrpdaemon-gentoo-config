@@ -155,3 +155,4 @@ media-libs/libsdl abi_x86_32
 media-libs/libepoxy abi_x86_32
 sys-libs/binutils-libs abi_x86_32
 media-libs/opus abi_x86_32
+dev-libs/libpcre abi_x86_32
