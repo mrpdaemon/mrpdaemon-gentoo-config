@@ -9,3 +9,6 @@ virtual/jdk:1.8
 virtual/jre:1.8
 # New maven needs Oracle JDK
 >=dev-java/maven-bin-3.3
+
+# Temporarily masking new freetype because it breaks infinality
+>=media-libs/freetype-2.6.5
