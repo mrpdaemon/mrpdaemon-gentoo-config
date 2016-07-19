@@ -219,3 +219,6 @@ sys-libs/ncurses tinfo
 
 # Multiple GCC versions
 sys-devel/gcc multislot
+
+# GIMP
+media-libs/libmypaint gegl
