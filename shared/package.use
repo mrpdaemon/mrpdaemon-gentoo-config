@@ -222,3 +222,6 @@ sys-devel/gcc multislot
 
 # GIMP
 media-libs/libmypaint gegl
+
+# PyQt4 with webkit for scraping
+dev-python/PyQt4 webkit
