@@ -1,0 +1,15 @@
+diff -ur freetype-2.6.5-orig/devel/ftoption.h freetype-2.6.5/devel/ftoption.h
+--- freetype-2.6.5-orig/devel/ftoption.h	2016-07-26 22:21:47.392428499 -0700
++++ freetype-2.6.5/devel/ftoption.h	2016-07-26 22:22:27.858549523 -0700
+@@ -630,9 +630,9 @@
+   /*                                                                       */
+   /* [1] http://www.microsoft.com/typography/cleartype/truetypecleartype.aspx */
+   /*                                                                       */
+-/* #define TT_CONFIG_OPTION_SUBPIXEL_HINTING  1     */
++#define TT_CONFIG_OPTION_SUBPIXEL_HINTING  1
+ /* #define TT_CONFIG_OPTION_SUBPIXEL_HINTING  2     */
+-#define TT_CONFIG_OPTION_SUBPIXEL_HINTING     ( 1 | 2 )
++/* #define TT_CONFIG_OPTION_SUBPIXEL_HINTING     ( 1 | 2 ) */
+ 
+ 
+   /*************************************************************************/

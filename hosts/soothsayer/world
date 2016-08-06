@@ -94,8 +94,8 @@ sys-fs/dosfstools
 sys-fs/ecryptfs-utils
 sys-fs/encfs
 sys-fs/mtpfs
-sys-kernel/gentoo-sources:4.5.7
 sys-kernel/gentoo-sources:4.6.3
+sys-kernel/gentoo-sources:4.6.4
 sys-kernel/linux-firmware
 sys-power/acpid
 sys-power/bbswitch
