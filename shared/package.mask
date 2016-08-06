@@ -12,3 +12,6 @@ virtual/jre:1.8
 
 # Temporarily masking new freetype because it breaks infinality
 >=media-libs/freetype-2.6.5
+
+# particular wine version that breaks battle.net
+=app-emulation/wine-1.9.15
